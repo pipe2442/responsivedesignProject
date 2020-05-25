@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 760px) {
+    body {
+        margin: 0;
+    }
+
+    .flex-spaceBetween{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .mobileMenu {
+        align-items: initial;
+        margin-bottom: 0;
+    }
+
+    i{
+        padding: 16px;
+        color: #f42;
+        height: 1vh;
+    }
+    .fa-search {
+        border-left: solid 1px;
+        border-right: solid 1px;
+        border-color: #B8B8B8;
+        color: #B8B8B8;
+    }
+    
+    .weHeard {
+        background-color: yellow;
+        margin-top: 0;
+        height: 10vh;
+    }
+  }
