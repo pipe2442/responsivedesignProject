@@ -51,13 +51,13 @@ body {
         font-size: 0.8rem;
     }
     .news-section{
-        height: 30vh;
+        height: 80vh;
     }
     .news__article1{
         background: rgba(126, 89, 89, 0.70) url(../assets/images/news1.jpg) center;
         background-size: cover;
         bottom: 4px;       
-        position: relative;
+        
         top: 4px;
         margin: -4px 10px 0px 10px;
         z-index: 2;
@@ -66,7 +66,7 @@ body {
     .news__article2{
         background: rgba(126, 89, 89, 0.70) url(../assets/images/Sprint_image.jpg) center;
         background-size: cover;
-        position: relative;
+        
         margin: 10px 10px 0px 10px;
        
     }
@@ -74,7 +74,7 @@ body {
     .news__article3 {
         background: rgba(126, 89, 89, 0.70) url(../assets/images/icon-rewind-apps-slack-instagram-tinder-1-796x444.png) center;
         background-size: cover;
-        position: relative;
+        
         margin: 10px 10px 0px 10px;
 
     }
@@ -90,5 +90,19 @@ body {
         font-size: 0.8rem;
         font-weight: 400;
         
+    }
+
+    h1 {
+        color: red;
+    }
+
+    .latestContainer img{
+        width: 85px;
+        height: 70px;
+        float: left;
+    }
+
+    .latestContainer h3 {
+        font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
     }
 }
