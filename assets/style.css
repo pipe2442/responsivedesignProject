@@ -3,6 +3,12 @@ body {
     padding:0;
     box-sizing: border-box;
 }
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 760px) {
     body {
@@ -46,15 +52,18 @@ body {
         background-color: yellow;
         margin-top: -4px;
         height: 10vh;
-        padding:0px 20px 0px 50px;
+        padding:0px 0px 0px 20px;
+        align-self: center;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 0.8rem;
+        width: auto;
     }
     .news-section{
-        height: 130vh;
+        height: 95vh;
     }
     .news__article1{
-        background: rgba(126, 89, 89, 0.70) url(../assets/images/news1.jpg) center;
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url(../assets/images/news1.jpg) center;
         background-size: cover;
         bottom: 4px;       
         
@@ -64,7 +73,8 @@ body {
        
     }
     .news__article2{
-        background: rgba(126, 89, 89, 0.70) url(../assets/images/Sprint_image.jpg) center;
+        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url(../assets/images/Sprint_image.jpg) center;
         background-size: cover;
         
         margin: 10px 10px 0px 10px;
@@ -72,7 +82,8 @@ body {
     }
 
     .news__article3 {
-        background: rgba(126, 89, 89, 0.70) url(../assets/images/icon-rewind-apps-slack-instagram-tinder-1-796x444.png) center;
+        background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url(../assets/images/icon-rewind-apps-slack-instagram-tinder-1-796x444.png) center;
         background-size: cover;
         
         margin: 10px 10px 0px 10px;
@@ -92,11 +103,13 @@ body {
         
     }
 
-    h1 {
+    h1{
         color: #f42;
         font-family: Avalon, sans-serif;
         font-size: 28px;
         padding: 0 10px;
+        font-weight: 900;
+        width: auto;
     }
 
     .latestContainer img{
@@ -112,7 +125,7 @@ body {
     }
     
     .latestItem {
-        width: 80vh;
+        width:auto;
         height: 10vh;
         display: flex;
         align-items: flex-start;
@@ -131,5 +144,83 @@ body {
     .latestItem-title strong{
         color: #aaa;;
     }
+    ul{
+        padding: 0px 0px 0px 10px;
+    }
+    .funding-links a{
+        color: #f42;
+        line-height: 11px;
+        margin-top: 11px;
+        display: block;
+        padding: 0px;
+        font-weight: 400;
+    }
+    h1:hover{
+        color: black;
 
-}   
+    }
+    .latestItem-title h3:hover{
+        color: #f42;
+    }
+    .sponsor{
+        background-color: beige;
+    }
+    .sponsor img{
+        width: 60px;
+        min-width: 60px;
+        max-width: 60px;
+        height: 60px;
+        min-height: 60px;
+        max-height: 60px;
+        margin: 10.6666666667px;
+        position: absolute;
+        z-index: 10
+    }
+    .sponsor-details h3{
+        background-color: #f42;
+        color: #fff;
+        padding: 10.6666666667px 16px 10.6666666667px 84px; 
+        font-size: 18px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .sponsor-details h5{
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .sponsor-assets{
+       padding: 10.6666666667px 16px 10.6666666667px 84px;
+       color: #000;
+       background: rgba(255, 68, 34, .08);
+       margin: 0;      
+    }
+  .sponsor-cards{
+      padding: 16px;
+  }
+  .sponsor-tag{
+      position: relative;
+      padding-left: 2em;
+      font-size: 13px;
+      margin-right: 1em;
+      display: block;
+      color: #555;
+      line-height: 22px;
+  }
+  .sponsor-tag span{
+      padding:15px;
+  }
+  .border{
+      border-top: 1px solid #f42;
+  }
+  .border p{
+    padding-left: 2em;
+    color: #555;
+      font-size: 12px;
+      font-weight: 400;
+  }
+  .faded-out{
+      color:#aaa
+  }
+}
