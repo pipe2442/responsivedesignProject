@@ -3,7 +3,7 @@ body {
     padding:0;
     box-sizing: border-box;
 }
-li{
+.latestContainer li{
     list-style: none;
 }
 a{
@@ -262,6 +262,9 @@ a{
         padding: 50px 0 100px 100px;
         margin: 0;
     }
+    .listOne {
+        list-style: none;
+    }
 
     .white {
         color: white;
@@ -296,4 +299,32 @@ a{
         line-height: 1.5;
     }
 
+    .latest {
+        background-color: rgb(236, 234, 234);
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .latest img {
+        width: 13vh;
+        height: 10vh;
+        
+    }
+    .laTitles{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+        color: #f42;
+    }
+
+    .popular li a {
+        color: #000;
+        opacity: .6;
+    }
+
+    .listTwo {
+        list-style: disc inside none;
+
+    }
 }
