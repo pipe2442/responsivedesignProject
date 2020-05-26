@@ -59,7 +59,7 @@ a{
         width: auto;
     }
     .news-section{
-        height: 95vh;
+        height: 120vh;
     }
     .news__article1{
         background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
@@ -163,7 +163,7 @@ a{
         color: #f42;
     }
     .sponsor{
-        background-color: beige;
+        background-color:rgba(255,68,34,.08);     
     }
     .sponsor img{
         width: 60px;
@@ -184,16 +184,26 @@ a{
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        margin: 0;
+    }
+    .sponsor-details h4 {
+        margin: 0;
     }
     .sponsor-details h5{
         font-size: 12px;
+        margin: 0;
+        font-family: Shentox,sans-serif;
+        font-weight: 500;
         text-transform: uppercase;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        letter-spacing: .04em;
+        line-height: 1.5;
+        color: #000;
+        opacity: .5;
     }
     .sponsor-assets{
        padding: 10.6666666667px 16px 10.6666666667px 84px;
        color: #000;
-       background: rgba(255, 68, 34, .08);
+       background: rgba(255, 68, 34, .08); 
        margin: 0;      
     }
   .sponsor-cards{
