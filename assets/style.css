@@ -221,6 +221,21 @@ a{
   .sponsor-tag span{
       padding:15px;
   }
+
+  .sponsor-cards i {
+      color: black;
+      margin: auto;
+      padding: 1vh;
+  }
+
+  .sponsor-cards span {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+    font-weight: normal;
+  } 
+
   .border{
       border-top: 1px solid #f42;
   }
