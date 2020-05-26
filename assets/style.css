@@ -85,7 +85,6 @@ a{
         background:linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
         url(../assets/images/icon-rewind-apps-slack-instagram-tinder-1-796x444.png) center;
         background-size: cover;
-        
         margin: 10px 10px 0px 10px;
 
     }
@@ -201,65 +200,100 @@ a{
         opacity: .5;
     }
     .sponsor-assets{
-       padding: 10.6666666667px 16px 10.6666666667px 84px;
-       color: #000;
-       background: rgba(255, 68, 34, .08); 
-       margin: 0;      
+        padding: 10.6666666667px 16px 10.6666666667px 84px;
+        color: #000;
+        background: rgba(255, 68, 34, .08); 
+        margin: 0;      
     }
-  .sponsor-cards{
-      padding: 16px;
-  }
-  .sponsor-tag{
-      position: relative;
-      padding-left: 2em;
-      font-size: 13px;
-      margin-right: 1em;
-      display: block;
-      color: #555;
-      line-height: 22px;
-  }
-  .sponsor-tag span{
-      padding:15px;
-  }
+    .sponsor-cards{
+        padding: 16px;
+    }
 
-  .sponsor-cards i {
-      color: black;
-      margin: auto;
-      padding: 1vh;
-  }
+    .sponsor-tag{
+        position: relative;
+        padding-left: 2em;
+        font-size: 13px;
+        margin-right: 1em;
+        display: block;
+        color: #555;
+        line-height: 22px;
+    }
+    .sponsor-tag span{
+        padding:15px;
+    }
 
-  .sponsor-cards span {
-    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-    font-size: 12px;
-    color: #555;
-    line-height: 1.5;
-    font-weight: normal;
-  } 
+    .sponsor-cards i {
+        color: black;
+        margin: auto;
+        padding: 1vh;
+    }
 
-  .border{
-      border-top: 1px solid #f42;
-  }
-  .border p{
-    padding-left: 2em;
-    color: #555;
-      font-size: 12px;
-      font-weight: 400;
-  }
-  .faded-out{
-      color:#aaa
-  }
+    .sponsor-cards span {
+        font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+        font-size: 12px;
+        color: #555;
+        line-height: 1.5;
+        font-weight: normal;
+    } 
 
-  .sectionPopular {
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-    url(../assets/images/image-gradient1.png) center;
-    background-repeat: no-repeat;
+    .border{
+        border-top: 1px solid #f42;
+    }
 
-    padding: 130px 100px;
-    margin: auto;
-  }
+    .border p{
+        padding-left: 2em;
+        color: #555;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .faded-out{
+        color:#aaa
+     }
 
-  .popular ul {
-     margin: 0;
-     padding: 20px;
-  }
+    .popular ul {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .sectionPopular {
+        background: linear-gradient( rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/image-gradient1.png) center;
+        background-repeat: no-repeat;
+        padding: 50px 0 100px 100px;
+        margin: 0;
+    }
+
+    .white {
+        color: white;
+    }
+
+    .time-color {
+        color: hsla(0,0%,100%,.6);;
+    }
+
+    .no-margin {
+        margin: 0px;
+    }
+
+    .padding-top {
+        padding:10px 0;
+    }
+
+    .sectionPopular .news__title {
+        width: auto;
+        padding: 0;
+        position: relative;
+        top: 10vh;
+        right: 7vh;
+    }
+
+    .mostPopular {
+        color: #fff;
+        font-size: 13px;
+        font-family: 'Roboto',sans-serif;
+        text-transform: uppercase;
+        letter-spacing: .04em;
+        line-height: 1.5;
+    }
+
 }
