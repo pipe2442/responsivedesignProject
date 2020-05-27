@@ -301,16 +301,17 @@ b {
 
 /*<----------------------------------  LATEST NEWS SECTION  --------------------------------------------------------->*/
     .latestNews {
-        padding: 50px 200px;
+        margin: 5vh 30vh;
     }
 
     .latestContainer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        margin-top: 3vh;
     }
 
     .latestContainer img {
-        width: 33vh;
+        width: 34vh;
     }
 
     .latestContainer a {
@@ -325,11 +326,11 @@ b {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        margin: 25px 0;
+        
     }
 
     .latestItem-title {
-        width: 33vh;
+        width: 25vh;
     }
 
     .latestItem-title h3 {
