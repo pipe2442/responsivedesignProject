@@ -120,8 +120,6 @@ a {
     grid-area: news__article3;
 }
 
-
-
 .app-title1 {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
         url(../assets/images/icon1.png) center;
@@ -148,7 +146,6 @@ h1 {
     color: #f42;
     font-family: Avalon, sans-serif;
     font-size: 28px;
-    padding: 0 10px;
     font-weight: 900;
     width: auto;
 }
@@ -300,6 +297,64 @@ b {
 
     }
 
+    
+
+/*<----------------------------------  LATEST NEWS SECTION  --------------------------------------------------------->*/
+    .latestNews {
+        padding: 50px 200px;
+    }
+
+    .latestContainer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        
+    }
+
+    .latestContainer img {
+        width: 32vh;
+    }
+
+    .latestContainer a {
+        color: black;
+        text-decoration: none;
+        font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+        font-size: 15px;
+    }
+
+    .latestItem {
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 25px 0;
+    }
+
+    .latestItem-title {
+        width: 33vh;
+    }
+
+    .latestItem-title h3 {
+        font-size: 15px;
+        height: 8vh;
+    }
+
+    .latestItem-title strong {
+        color: #aaa;
+    }
+
+    h1:hover {
+        color: black;
+
+    }
+
+    .latestItem-title h3:hover {
+        color: #f42;
+    }
+
+
+
+/*<----------------------------------  LATEST NEWS SECTION  --------------------------------------------------------->*/
+
 }
 
 
@@ -373,6 +428,13 @@ b {
         margin-top: 70px;
         padding: 20px;
     }
+
+    .latestContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
     .latestContainer img {
         width: 85px;
         height: 70px;
