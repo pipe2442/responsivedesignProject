@@ -307,11 +307,10 @@ b {
     .latestContainer {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        
     }
 
     .latestContainer img {
-        width: 32vh;
+        width: 33vh;
     }
 
     .latestContainer a {
@@ -335,7 +334,8 @@ b {
 
     .latestItem-title h3 {
         font-size: 15px;
-        height: 8vh;
+        min-height: 8vh;
+        margin-top: 20px;
     }
 
     .latestItem-title strong {
