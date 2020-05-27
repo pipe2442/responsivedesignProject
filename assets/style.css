@@ -32,7 +32,219 @@ a {
     justify-content: space-between;
 }
 
+.weHeard {
+    background-color: #fd3;
+    position: relative;
+    height: 10vh;
+    line-height: 24px;
+    text-align: center;
+    align-content: center;
+    padding: 0 6px;
+    margin-top: -3px;
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+    font-size: 0.8rem;
+    width: auto;
 
+}
+
+.weHeard .fas {
+    color: black;
+}
+
+ i {
+     padding: 12px;
+ }
+ .flex {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .washed-out {
+     color: black;
+ }
+ .news-section {
+     display: grid;
+     grid-template-areas:
+         "news__article1 news__article1 news__article2"
+         "news__article1 news__article1 news__article3"
+         "news__article1 news__article1 news__article3";
+     grid-gap: 0.8rem;
+     overflow: hidden;
+     margin: 1rem 0.5rem;
+ }
+.news__article1 {
+    grid-area: news__article1;
+    width: 92%;
+    height: 30rem;
+   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+   url(../assets/images/news1.jpg) center;
+    background-size: cover;
+    padding: 2rem;
+    color: #fff;
+    position: relative;
+}
+
+.feature-main__top {
+    display: flex;
+    justify-content: space-between;
+}
+.feature-article__date {
+    font-size: 0.9rem;
+    color: #fd3;
+}
+
+.news__title1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.1rem;
+    margin-top:17rem;
+       
+}
+
+.news__article2 {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url(../assets/images/Sprint_image.jpg) center;
+    background-size: cover;
+    grid-area: news__article2;
+    padding: 1rem;
+}
+
+ .news__article3 {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+    url(../assets/images/icon1.png) center;
+    background-size: cover;
+    grid-area: news__article3;
+}
+
+
+
+.app-title1 {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url(../assets/images/icon1.png) center;
+    background-size: cover;
+    margin: 10px 10px 0px 10px;
+}
+
+.news__title {
+    font-weight: 900;
+    line-height: 22px;
+    font-size: 1.3em;
+    color: #fff;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.news__author {
+    font-size: 1.1rem;
+    font-weight: 400;
+letter-spacing: -0.1rem;
+}
+
+h1 {
+    color: #f42;
+    font-family: Avalon, sans-serif;
+    font-size: 28px;
+    padding: 0 10px;
+    font-weight: 900;
+    width: auto;
+}
+.title__tag{
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+}
+
+.footer {
+    position: relative;
+
+}
+
+.footer-links {
+    background: #131313;
+    padding: 2.5em 0;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+}
+
+.footer-links-social {
+    margin-bottom: 1.5em;
+}
+
+.footer-links-social li {
+    display: inline-block;
+    margin: 0 3px;
+    background: #333;
+    border-radius: 50%;
+    height: 40px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    width: 40px
+}
+
+.fab,
+.fas,
+.footer-links-menu li a {
+    color: #fff;
+}
+
+.footer-links-menu li {
+    font-family: Shentox, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0 4px;
+}
+
+.footer-wrapper::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.footer-copyright {
+    background: #000;
+    color: #aaa;
+    font-size: 13px;
+    padding: 2.5em 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+}
+
+.footer-copyright span {
+    display: block;
+}
+
+.footer-legal-logo {
+    display: inline-block;
+    height: 9px;
+    margin-right: 1px;
+    vertical-align: baseline;
+}
+
+.footer-copyright span b {
+    color: #f42;
+}
+
+b {
+    font-weight: 700;
+}
 
 @media only screen and (min-width: 1020px) {
 
@@ -103,14 +315,7 @@ a {
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    .flex {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .washed-out {
-        color: black;
-    }
+    
 
     .screenMenu{
         display: none;
@@ -122,9 +327,7 @@ a {
         margin-bottom: 0;
     }
 
-    i {
-        padding: 12px;
-    }
+   
 
     .fa-bars {
         color: #f42;
@@ -136,64 +339,29 @@ a {
         border-color: #B8B8B8;
         color: #B8B8B8;
     }
-
-    .weHeard {
-        background-color: #fd3;
-        position: relative;
-        height: 10vh;
-        line-height: 24px;
-        text-align: center;
-        padding: 0 6px;
-        margin-top: -3px;
-        font-family: Arial,
-            Helvetica,
-            sans-serif;
-        font-size: 0.8rem;
-        width: auto;
-
+    .feature-article__logo,
+    .feature-article__date {
+    display: none;
     }
-
-    .weHeard .fas {
-        color: black;
-    }
-
     .news-section {
-        height: 100vh;
-    }
-
-    .news__article1 {
-        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-            url(../assets/images/news1.jpg) center;
-        background-size: cover;
-        margin: 0px 10px 0px 10px;
-        
-
-    }
-
-    .news__article2 {
-        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-            url(../assets/images/Sprint_image.jpg) center;
-        background-size: cover;
-        margin: 10px 10px 0px 10px;
+        display: grid;
+        grid-template-areas:
+            "news__article1"
+            "news__article2"
+            "news__article3";
+        grid-gap: 0.8rem;
+        overflow: hidden;
+        margin: 1rem 0.5rem;
 
     }
-
-    .news__article3 {
-        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-            url(../assets/images/icon1.png) center;
-        background-size: cover;
-        margin: 10px 10px 0px 10px;
-
+    .news__article1,
+    .news__article2,
+    .news__article3{
+        height: 30vh;
     }
-
-    .app-title1 {
-        background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-            url(../assets/images/icon1.png) center;
-        background-size: cover;
-        margin: 10px 10px 0px 10px;
-    }
-
-    .news__title {
+    
+    .news__title,
+    .news__title1 {
         font-weight: 900;
         line-height: 22px;
         font-size: 1.3em;
@@ -201,22 +369,6 @@ a {
         margin-top: 70px;
         padding: 20px;
     }
-
-    .news__author {
-        font-size: 0.8rem;
-        font-weight: 400;
-
-    }
-
-    h1 {
-        color: #f42;
-        font-family: Avalon, sans-serif;
-        font-size: 28px;
-        padding: 0 10px;
-        font-weight: 900;
-        width: auto;
-    }
-
     .latestContainer img {
         width: 85px;
         height: 70px;
@@ -552,92 +704,5 @@ a {
         font-size: 14px;
     }
 
-    footer {
-        text-align: center;
-    }
-
-    .footer {
-        position: relative;
-
-    }
-
-    .footer-links {
-        background: #131313;
-        padding: 2.5em 0;
-    }
-
-    .footer-wrapper {
-        margin: 0 auto;
-        max-width: 1192px;
-        padding: 0 20px;
-    }
-
-    .footer-links-social {
-        margin-bottom: 1.5em;
-    }
-
-    .footer-links-social li {
-        display: inline-block;
-        margin: 0 3px;
-        background: #333;
-        border-radius: 50%;
-        height: 40px;
-        padding: 5px 5px 5px 5px;
-        text-align: center;
-        width: 40px
-    }
-
-    .fab,
-    .fas,
-    .footer-links-menu li a {
-        color: #fff;
-    }
-
-    .footer-links-menu li {
-        font-family: Shentox, sans-serif;
-        font-weight: 500;
-        text-transform: uppercase;
-        display: inline-block;
-        font-size: 13px;
-        line-height: 24px;
-        margin: 0 4px;
-    }
-
-    .footer-wrapper::after {
-        clear: both;
-        content: "";
-        display: block;
-    }
-
-    .footer-copyright {
-        background: #000;
-        color: #aaa;
-        font-size: 13px;
-        padding: 2.5em 0;
-    }
-
-    .wrapper {
-        margin: 0 auto;
-        max-width: 1192px;
-        padding: 0 20px;
-    }
-
-    .footer-copyright span {
-        display: block;
-    }
-
-    .footer-legal-logo {
-        display: inline-block;
-        height: 9px;
-        margin-right: 1px;
-        vertical-align: baseline;
-    }
-
-    .footer-copyright span b {
-        color: #f42;
-    }
-
-    b {
-        font-weight: 700;
-    }
+    
 }
