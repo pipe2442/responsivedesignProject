@@ -295,6 +295,10 @@ b {
         color: #B8B8B8;
         padding: 10px 0 10px 15px;
     }
+    .news-section {
+        grid-gap: 1.8rem;
+
+    }
 
 }
 
