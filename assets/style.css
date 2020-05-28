@@ -623,7 +623,7 @@ h1:hover {
 .latestContainer {
     display: grid;
     gap: 0em;
-    grid-template-columns: repeat(3, 370px);
+    grid-template-columns: repeat(4, 370px);
     justify-content: center;
 }
 
