@@ -302,10 +302,8 @@ b {
 /*<----------------------------------  LATEST NEWS SECTION  --------------------------------------------------------->*/
 
     .latestNews {
-        display: flex;
-        flex-direction: column;
-        margin: 5vh 25vh;
- 
+        width: 200vh;
+    
     }
 
     .latestNews h1 {
@@ -313,14 +311,15 @@ b {
     }
 
     .latestContainer {
-        margin-bottom: 5vh;
+        
+        margin: 5vh auto;
         display: grid;
-        grid-gap: 5vh;
-        grid-template-columns: repeat(auto-fit, minmax(26vh, 1fr));
+        grid-gap: 20vh;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
     }
 
     .latestContainer img {
-        width: 300px;
+        width: 25vh;
     }
 
     .latestContainer a {
@@ -332,18 +331,17 @@ b {
 
     .latestItem {
         display: flex;
-        align-items: flex-start;
         flex-direction: column;
     }
 
     .latestItem-title {
-        width: 30vh;
+        width: 22vh;
     }
 
     .latestItem-title h3 {
         font-size: 15px;
-        min-height: 8vh;
         margin-top: 20px;
+        min-height: 8vh;
     }
 
     .latestItem-title strong {
