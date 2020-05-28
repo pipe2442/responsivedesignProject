@@ -26,6 +26,14 @@ a {
 .grey {
     color: #aaa;
 }
+.flex {
+    display: flex;
+
+}
+
+.flex-column {
+    flex-direction: column;
+}
 
 .flex-spaceBetween {
     display: flex;
@@ -56,10 +64,10 @@ a {
  i {
      padding: 12px;
  }
- .flex {
+ /* .flex {
      display: flex;
      flex-direction: column;
- }
+ } */
 
  .washed-out {
      color: black;
@@ -242,6 +250,308 @@ footer {
 b {
     font-weight: 700;
 }
+.latest-funding {
+    justify-content: center;
+}
+
+.funding-round {
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.funding-links a {
+    padding: 14px 0;
+    color: #f42;
+}
+
+.funding-links div {
+    flex-direction: row;
+    border-right: solid 1px #f42;
+    float: left;
+    padding: 0px 12px;
+    margin: 12px;
+}
+
+h1:hover {
+    color: black;
+
+}
+
+.latestItem-title h3:hover {
+    color: #f42;
+}
+
+.sponsor-details {
+    display: grid;
+    grid-template-columns: 3fr;
+    width: 350px;
+    /* background-color: #fd3; */
+}
+
+.sponsor,
+.sponsor2,
+.sponsor3 {
+    margin: 2vh;
+}
+
+.sponsor-image img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    position: absolute;
+}
+
+.sponsor-details h3 {
+    background-color: #f42;
+    color: #fff;
+    padding: 10px 16px 10px 84px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.sponsor-details h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+.sponsor-details h5 {
+    font-size: 12px;
+    margin: 0;
+    font-family: Shentox, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    line-height: 1.5;
+    color: #000;
+    opacity: .5;
+}
+
+.sponsor-assets {
+    padding: 10px 16px 10px 84px;
+    color: #000;
+    background: rgba(255, 68, 34, .08);
+    margin: 0;
+}
+
+.sponsor-cards {
+    padding: 16px;
+}
+
+.sponsor-tag {
+    position: relative;
+    padding-left: 2em;
+    font-size: 13px;
+    margin-right: 1em;
+    display: block;
+    color: #555;
+    line-height: 22px;
+}
+
+.sponsor-tag span {
+    padding: 15px;
+}
+
+.sponsor-cards i {
+    color: black;
+    margin: auto;
+    padding: 1vh;
+}
+
+.sponsor-cards span {
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    font-size: 12px;
+    color: #555;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+.border {
+    border-top: 1px solid rgba(255, 68, 34, .25);
+    padding-top: 10px;
+}
+
+.border p {
+    padding-left: 2em;
+    color: #555;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.faded-out {
+    color: #aaa
+}
+
+.article-section {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-auto-rows: 1fr;
+    grid-gap: 2.5rem;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+.sectionPopular {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/image-gradient1.png) center;
+    background-repeat: no-repeat;
+    padding: 50px 0 0px 100px;
+    margin: 0;
+}
+
+.sectionPopular2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/header-image-escobar-suing-apple-368x276.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.sectionPopular3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/Trump-Twitter-368x276.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.sectionPopular4 {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/Untitled-design-53-516x270.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.sectionPopular5 {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/image5-368x276.png) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.sectionPopular6 {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/justas-vinted-gq-1-368x276.png) border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.sectionPopular7 {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/Facebook-Discover-368x276.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.sectionPopular8 {
+    background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+        url(../assets/images/HBO-Max-368x276.jpg) center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.listOne {
+    list-style: none;
+}
+
+.white {
+    color: white;
+}
+
+.time-color {
+    color: hsla(0, 0%, 100%, .6);
+
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+.padding-top {
+    padding: 10px 0;
+}
+
+.sectionPopular .news__title {
+    width: auto;
+    padding: 0;
+    position: relative;
+    top: 10vh;
+    right: 7vh;
+}
+
+.mostPopular {
+    color: #fff;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    line-height: 1.5;
+}
+
+.latest {
+    background-color: rgb(236, 234, 234);
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.latest img {
+    width: 10vh;
+    height: 10vh;
+
+}
+
+.laTitles {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
+    color: #f42;
+}
+
+.popular li a {
+    color: #000;
+    opacity: .6;
+    padding: 3px 0 6px 0px;
+    position: relative;
+    display: block;
+    margin: 0px;
+}
+
+.listTwo {
+    padding: 1.5rem;
+
+}
+
+.listTwo li {
+    list-style: disc;
+    color: #f42;
+    margin-bottom: 0.3rem;
+    border-bottom: 1px solid #eee;
+
+}
+
+.testing {
+    color: #333;
+    font-size: 0.8rem;
+}
+
 
 /*@media only screen and (min-width: 1020px) {*/
 
@@ -372,7 +682,7 @@ b {
 
 /*<----------------------------------          MOBILE VIEW         --------------------------------------------------------->*/
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 768px) {
     body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
@@ -380,17 +690,16 @@ b {
 
     
 
-    .screenMenu{
+    .screenMenu {
         display: none;
     }
-
 
     .mobileMenu {
         display: flex;
         margin-bottom: 0;
     }
 
-   
+
 
     .fa-bars {
         color: #f42;
@@ -402,10 +711,12 @@ b {
         border-color: #B8B8B8;
         color: #B8B8B8;
     }
+
     .feature-article__logo,
     .feature-article__date {
-    display: none;
+        display: none;
     }
+
     .news-section {
         display: grid;
         grid-template-areas:
@@ -417,12 +728,13 @@ b {
         margin: 1rem 0.5rem;
 
     }
+
     .news__article1,
     .news__article2,
-    .news__article3{
+    .news__article3 {
         height: 30vh;
     }
-    
+
     .news__title,
     .news__title1 {
         font-weight: 900;
@@ -433,12 +745,27 @@ b {
         padding: 20px;
     }
 
-    .latestContainer{
+    .latestContainer,
+    .funding-round,
+    .latest-funding,
+    .funding-links,
+    .sponsor-details {
         display: flex;
         flex-direction: column;
+        margin: 0px;
+        width: auto;
+        flex-wrap: nowrap;
     }
 
-    
+    .latest-funding {
+        margin: 60px 10px 0px 10px;
+    }
+
+    .funding-links div {
+        border: none;
+        margin: 0;
+    }
+
     .latestContainer img {
         width: 85px;
         height: 70px;
@@ -471,291 +798,25 @@ b {
 
     .latestItem-title strong {
         color: #aaa;
-        ;
-    }
 
-    .funding-round {
-        position: relative;
-        display: block;
-        padding: 0 10px;
     }
 
     .funding-links a {
-        color: #f42;
-        line-height: 11px;
-        margin-top: 11px;
-        display: block;
-        padding: 0px 0px 9px 10px;
-        font-weight: 400;
+        font-size: 16px;
     }
 
-    h1:hover {
-        color: black;
-
+    .funding-round {
+        display: flex;
     }
 
-    .latestItem-title h3:hover {
-        color: #f42;
-    }
-
-    .sponsor {
-        background-color: #fffaf8);
-    }
-
-    .sponsor img {
-        width: 60px;
-        min-width: 60px;
-        max-width: 60px;
-        height: 60px;
-        min-height: 60px;
-        max-height: 60px;
-        margin: 10px;
-        position: absolute;
-        z-index: 10
-    }
-
-    .sponsor-details h3 {
-        background-color: #f42;
-        color: #fff;
-        padding: 10px 16px 10px 84px;
-        font-size: 18px;
-        margin: 0;
-    }
-
-    .sponsor-details h4 {
-        margin: 0;
-        font-size: 18px;
-        color: #000;
-        font-weight: 700;
-        line-height: 1.25;
-    }
-
-    .sponsor-details h5 {
-        font-size: 12px;
-        margin: 0;
-        font-family: Shentox, sans-serif;
-        font-weight: 500;
-        text-transform: uppercase;
-        letter-spacing: .04em;
-        line-height: 1.5;
-        color: #000;
-        opacity: .5;
-    }
-
-    .sponsor-assets {
-        padding: 10px 16px 10px 84px;
-        color: #000;
-        background: rgba(255, 68, 34, .08);
-        margin: 0;
-    }
-
-    .sponsor-cards {
-        padding: 16px;
-    }
-
-    .sponsor-tag {
-        position: relative;
-        padding-left: 2em;
-        font-size: 13px;
-        margin-right: 1em;
-        display: block;
-        color: #555;
-        line-height: 22px;
-    }
-
-    .sponsor-tag span {
-        padding: 15px;
-    }
-
-    .sponsor-cards i {
-        color: black;
-        margin: auto;
-        padding: 1vh;
-    }
-
-    .sponsor-cards span {
-        font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-        font-size: 12px;
-        color: #555;
-        line-height: 1.5;
-        font-weight: normal;
-    }
-
-    .border {
-       border-top: 1px solid rgba(255, 68, 34, .25);
-       padding-top: 10px;
-    }
-
-    .border p {
-        padding-left: 2em;
-        color: #555;
-        font-size: 12px;
-        font-weight: 400;
-    }
-
-    .faded-out {
-        color: #aaa
-    }
-
-    .popular {
+    .article-section {
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 0.5rem;
-        
-    }
-    
-      .popular ul {
-        margin: 0px 0px 0px 19px;
-       
-    }
-    
-    .sectionPopular{
-        background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-            url(../assets/images/image-gradient1.png) center;
-        background-repeat: no-repeat;
-        padding: 50px 0 70px 100px;
-        margin: 0;
-    }
-    .sectionPopular2{
-         background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-         url(../assets/images/header-image-escobar-suing-apple-368x276.png) center;
-         background-repeat: no-repeat;
-         background-size: cover;
-         
-       
-    }
-    .sectionPopular3 {
-        background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-            url(../assets/images/Trump-Twitter-368x276.jpg) center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-
-    }
-    .sectionPopular4 {
-        background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-            url(../assets/images/Untitled-design-53-516x270.png) center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-
-    }
-    .sectionPopular5 {
-        background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-            url(../assets/images/image5-368x276.png) center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-
-    }
-    .sectionPopular6 {
-        background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-            url(../assets/images/justas-vinted-gq-1-368x276.png) border-box;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-
-    }
-    .sectionPopular7 {
-        background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-            url(../assets/images/Facebook-Discover-368x276.jpg) center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-
-    }
-    .sectionPopular8 {
-        background: linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-            url(../assets/images/HBO-Max-368x276.jpg) center;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-
-    }
-    .listOne {
-        list-style: none;
-    }
-
-    .white {
-        color: white;
-    }
-
-    .time-color {
-        color: hsla(0, 0%, 100%, .6);
-        
-    }
-
-    .no-margin {
-        margin: 0px;
-    }
-
-    .padding-top {
-        padding: 10px 0;
-    }
-
-    .sectionPopular .news__title {
-        width: auto;
-        padding: 0;
-        position: relative;
-        top: 10vh;
-        right: 7vh;
-    }
-
-    .mostPopular {
-        color: #fff;
-        font-size: 13px;
-        font-family: 'Roboto', sans-serif;
-        text-transform: uppercase;
-        letter-spacing: .04em;
-        line-height: 1.5;
-    }
-
-    .latest {
-        background-color: rgb(236, 234, 234);
-        height: 15vh;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
-
-    .latest img {
-        width: 10vh;
-        height: 10vh;
+        margin: 10px;
 
     }
 
-    .laTitles {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 10px;
-        color: #f42;
-    }
-
-    .popular li a {
-        color: #000;
-        opacity: .6;
-        padding: 3px 0 6px 0px;
-        position: relative;
-        display: block;
-        margin: 0px;
-    }
-
-    .listTwo {
-        padding: 1.5rem;
-
-    }
-
-    .listTwo li {
-        list-style: disc;
-        color: #f42;
-        margin-bottom: 0.3rem;
-        border-bottom: 1px solid #eee;
-       
-    }
-
-    .testing {
-        color: #333;
-        font-size: 0.8rem;
-    }
 
     .more-deals {
         float: right;
@@ -774,5 +835,21 @@ b {
         font-size: 14px;
     }
 
-    
-}
+
+    }
+
+    @media (min-width: 1024px) {
+
+        .main {
+            max-width: 100%;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        .latestContainer {
+            grid-template-columns: repeat(4, minmax(20rem, 1fr));
+        }
+
+    }
