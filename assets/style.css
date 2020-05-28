@@ -388,7 +388,7 @@ b {
 
 
     .mobileMenu {
-        align-items: initial;
+        display: flex;
         margin-bottom: 0;
     }
 
