@@ -300,21 +300,27 @@ b {
     
 
 /*<----------------------------------  LATEST NEWS SECTION  --------------------------------------------------------->*/
+
     .latestNews {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        margin: 5vh 25vh;
+ 
+    }
+
+    .latestNews h1 {
+        margin: 5vh 0;
     }
 
     .latestContainer {
-        margin: 5vh 25vh;
+        margin-bottom: 5vh;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5vh;
+        grid-template-columns: repeat(auto-fit, minmax(26vh, 1fr));
     }
 
     .latestContainer img {
-        width: 100%;
-        display: block;
+        width: 300px;
     }
 
     .latestContainer a {
@@ -328,11 +334,10 @@ b {
         display: flex;
         align-items: flex-start;
         flex-direction: column;
-        margin: 7vh 2vh;
     }
 
     .latestItem-title {
-        min-width: 15vh;
+        width: 30vh;
     }
 
     .latestItem-title h3 {
@@ -473,7 +478,7 @@ b {
 
     .funding-round {
         position: relative;
-    display: block;
+        display: block;
         padding: 0 10px;
     }
 
