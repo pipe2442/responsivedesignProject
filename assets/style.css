@@ -618,6 +618,7 @@ h1:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 7vh 0;
 }
 
 .latestContainer {
