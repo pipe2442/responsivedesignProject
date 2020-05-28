@@ -252,7 +252,7 @@ b {
     font-weight: 700;
 }
 
-.latest-funding {
+.latest-funding h1 {
     justify-content: center;
 }
 
@@ -289,7 +289,6 @@ h1:hover {
     display: grid;
     grid-template-columns: 3fr;
     width: 350px;
-    /* background-color: #fd3; */
 }
 
 .sponsor,
@@ -304,6 +303,7 @@ h1:hover {
     margin: 10px;
     position: absolute;
 }
+
 
 .sponsor-details h3 {
     background-color: #f42;
@@ -618,15 +618,22 @@ h1:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 7vh 0;
 }
 
 .latestContainer {
     display: grid;
-    gap: 0em;
-    grid-template-columns: repeat(4, 370px);
+    gap: 2.5rem;
+    grid-template-columns: repeat(4, 250px);
     justify-content: center;
 }
+
+.latest-deals {
+    display: grid;
+    gap: 0em;
+    grid-template-columns: repeat(4, 200px);
+    justify-content: center;
+}
+
 
 .latestContainer img {
     width: 100%;
@@ -640,11 +647,10 @@ h1:hover {
     font-size: 15px;
 }
 
-.latestItem {
+.latest-funding {
     display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 2vh;
+    justify-content: left;
+    margin: 4vh 8vh 0vh 16vh;
 }
 
 .latestItem-title h3 {
@@ -662,16 +668,30 @@ h1:hover {
 
 }
 
+.more-deals {
+    float: right;
+    line-height: 18px;
+    margin-top: 11px;
+
+}
+
+.old-price {
+    text-decoration: line-through;
+    margin-right: 4px;
+}
+
+.new-price {
+    color: #555;
+    font-size: 14px;
+}
+
+
 /*<----------------------------------          MOBILE VIEW         --------------------------------------------------------->*/
 
 @media only screen and (max-width: 768px) {
     body {
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
-    }
-
-    h1 {
-        font-size: 25px;
     }
 
     .screenMenu {
@@ -734,12 +754,19 @@ h1:hover {
     .latest-funding,
     .funding-links,
     .sponsor-details,
-    .latestNews {
+    .latestNews,
+    .latest-deals {
         display: flex;
         flex-direction: column;
         margin: 0px;
         width: auto;
         flex-wrap: nowrap;
+    }
+
+    .latestItem {
+        min-height: 72px;
+        /* padding-left: 88px; */
+        position: relative;
     }
 
     .latest-funding {
@@ -764,6 +791,21 @@ h1:hover {
     }
 
 
+    .latestItem-title {
+        font-size: 14px !important;
+        font-weight: 700;
+        line-height: 18px !important;
+    }
+
+    .old-price,
+    .new-price {
+        color: #aaa;
+        font-size: 12px;
+        line-height: 18px;
+        padding-top: 4px;
+        vertical-align: baseline;
+    }
+
     .funding-links a {
         font-size: 16px;
     }
@@ -780,23 +822,17 @@ h1:hover {
 
     }
 
-
-    .more-deals {
-        float: right;
-        line-height: 18px;
-        margin-top: 11px;
-
+    /* .latestItem-title{
+        position: relative;
+     } */
+    .sponsor-image img {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+        position: absolute;
     }
 
-    .old-price {
-        text-decoration: line-through;
-        margin-right: 4px;
-    }
 
-    .new-price {
-        color: #555;
-        font-size: 14px;
-    }
 
 
 }
