@@ -5,7 +5,6 @@
 }
 
 body {
-
     box-sizing: border-box;
     color: #555;
 }
@@ -19,13 +18,6 @@ a {
     text-decoration: none;
 }
 
-.grid {
-    display: grid;
-}
-
-.grey {
-    color: #aaa;
-}
 .flex {
     display: flex;
 
@@ -33,6 +25,14 @@ a {
 
 .flex-column {
     flex-direction: column;
+}
+
+.grid {
+    display: grid;
+}
+
+.grey {
+    color: #aaa;
 }
 
 .flex-spaceBetween {
@@ -61,33 +61,32 @@ a {
     color: black;
 }
 
- i {
-     padding: 12px;
- }
- /* .flex {
-     display: flex;
-     flex-direction: column;
- } */
+i {
+    padding: 12px;
+}
 
- .washed-out {
-     color: black;
- }
- .news-section {
-     display: grid;
-     grid-template-areas:
-         "news__article1 news__article1 news__article2"
-         "news__article1 news__article1 news__article3"
-         "news__article1 news__article1 news__article3";
-     grid-gap: 0.8rem;
-     overflow: hidden;
-     margin: 1rem 0.5rem;
- }
+
+.washed-out {
+    color: black;
+}
+
+.news-section {
+    display: grid;
+    grid-template-areas:
+        "news__article1 news__article1 news__article2"
+        "news__article1 news__article1 news__article3"
+        "news__article1 news__article1 news__article3";
+    grid-gap: 0.8rem;
+    overflow: hidden;
+    margin: 1rem 0.5rem;
+}
+
 .news__article1 {
     grid-area: news__article1;
     width: 92%;
     height: 30rem;
-   background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-   url(../assets/images/news1.jpg) center;
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
+        url(../assets/images/news1.jpg) center;
     background-size: cover;
     padding: 2rem;
     color: #fff;
@@ -98,6 +97,7 @@ a {
     display: flex;
     justify-content: space-between;
 }
+
 .feature-article__date {
     font-size: 0.9rem;
     color: #fd3;
@@ -107,23 +107,23 @@ a {
     font-size: 2.5rem;
     line-height: 1.1;
     letter-spacing: -0.1rem;
-    margin-top:17rem;
-       
+    margin-top: 17rem;
+
 }
 
 .news__article2 {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-    url(../assets/images/Sprint_image.jpg) center;
+        url(../assets/images/Sprint_image.jpg) center;
     background-size: cover;
     grid-area: news__article2;
     padding: 1rem;
 }
 
- .news__article3 {
+.news__article3 {
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)),
-    url(../assets/images/icon1.png) center;
+        url(../assets/images/icon1.png) center;
     background-size: cover;
     grid-area: news__article3;
 }
@@ -147,7 +147,7 @@ a {
 .news__author {
     font-size: 1.1rem;
     font-weight: 400;
-letter-spacing: -0.1rem;
+    letter-spacing: -0.1rem;
 }
 
 h1 {
@@ -157,7 +157,8 @@ h1 {
     font-weight: 900;
     width: auto;
 }
-.title__tag{
+
+.title__tag {
     text-transform: uppercase;
     font-size: 1rem;
 }
@@ -250,6 +251,7 @@ footer {
 b {
     font-weight: 700;
 }
+
 .latest-funding {
     justify-content: center;
 }
@@ -552,133 +554,112 @@ h1:hover {
     font-size: 0.8rem;
 }
 
-
 /*@media only screen and (min-width: 1020px) {*/
 
-    .mobileMenu{
-        display: none;
-    }
+.mobileMenu {
+    display: none;
+}
 
-    .menu {
-        background: #131313;;
-        padding: 5px 20px;
-    }
+.menu {
+    background: #131313;
+    ;
+    padding: 5px 20px;
+}
 
-    .menu-item {
-        display: flex;
-    }
+.menu-item {
+    display: flex;
+}
 
-    .menu-item a {
-        padding: 0 10px;
-        color: hsla(0,0%,100%,.6);
-        font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
-        line-height: 1.5;
-        font-size: 13px;
-    }
-
-
-    .menu2 {
-        
-        padding: 0px 20px;
-        align-items: center;
-    }
-
-    .menu-item2 {
-        display: flex;
-    }
-
-    .menu-item2 a {
-        padding: 0 10px;
-        color: rgba(85, 85, 85, 0.671);
-        font-family: 'Roboto', sans-serif;
-        line-height: 1,5;
-        font-size: 14px;
-        font-weight: bolder;
-    }
-
-    .menu2 .fa-search {
-        border-left: solid 1px;
-        border-color: #B8B8B8;
-        color: #B8B8B8;
-        padding: 10px 0 10px 15px;
-    }
-    .news-section {
-        grid-gap: 1.8rem;
-
-    }
-
-    
-
-/*<----------------------------------  LATEST NEWS SECTION  --------------------------------------------------------->*/
-
-    .latestNews {
-        width: 200vh;
-    
-    }
-
-    .latestNews h1 {
-        margin: 5vh 0;
-    }
-
-    .latestContainer {
-        
-        margin: 5vh auto;
-        display: grid;
-        grid-gap: 20vh;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
-    }
-
-    .latestContainer img {
-        width: 25vh;
-    }
-
-    .latestContainer a {
-        color: black;
-        text-decoration: none;
-        font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-        font-size: 15px;
-    }
-
-    .latestItem {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .latestItem-title {
-        width: 22vh;
-    }
-
-    .latestItem-title h3 {
-        font-size: 15px;
-        margin-top: 20px;
-        min-height: 8vh;
-    }
-
-    .latestItem-title strong {
-        color: #aaa;
-    }
-
-    h1:hover {
-        color: black;
-
-    }
-
-    .latestItem-title h3:hover {
-        color: #f42;
-    }
+.menu-item a {
+    padding: 0 10px;
+    color: hsla(0, 0%, 100%, .6);
+    font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+    line-height: 1.5;
+    font-size: 13px;
+}
 
 
-/*}*/
+.menu2 {
+
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.menu-item2 {
+    display: flex;
+}
+
+.menu-item2 a {
+    padding: 0 10px;
+    color: rgba(85, 85, 85, 0.671);
+    font-family: 'Roboto', sans-serif;
+    line-height: 1, 5;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.menu2 .fa-search {
+    border-left: solid 1px;
+    border-color: #B8B8B8;
+    color: #B8B8B8;
+    padding: 10px 0 10px 15px;
+}
+
+.news-section {
+    grid-gap: 1.8rem;
+
+}
+
 
 
 /*<----------------------------------  LATEST NEWS SECTION  --------------------------------------------------------->*/
+.latestNews {
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.latestContainer {
+    display: grid;
+    gap: 0em;
+    grid-template-columns: repeat(3, 370px);
+    justify-content: center;
+}
 
+.latestContainer img {
+    width: 100%;
+    display: block;
+}
 
+.latestContainer a {
+    color: black;
+    text-decoration: none;
+    font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
+    font-size: 15px;
+}
 
+.latestItem {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 2vh;
+}
 
+.latestItem-title h3 {
+    font-size: 15px;
+    min-height: 8vh;
+    margin-top: 20px;
+}
 
+.latestItem-title strong {
+    color: #aaa;
+}
+
+h1:hover {
+    color: black;
+
+}
 
 /*<----------------------------------          MOBILE VIEW         --------------------------------------------------------->*/
 
@@ -688,7 +669,9 @@ h1:hover {
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    
+    h1 {
+        font-size: 25px;
+    }
 
     .screenMenu {
         display: none;
@@ -749,7 +732,8 @@ h1:hover {
     .funding-round,
     .latest-funding,
     .funding-links,
-    .sponsor-details {
+    .sponsor-details,
+    .latestNews {
         display: flex;
         flex-direction: column;
         margin: 0px;
@@ -778,28 +762,6 @@ h1:hover {
         font-size: 15px;
     }
 
-    .latestItem {
-        width: auto;
-        height: 10vh;
-        display: flex;
-        align-items: flex-start;
-        padding: 20px 10px;
-    }
-
-    .latestItem-title {
-        padding-left: 2vh;
-        width: 100%;
-    }
-
-    .latestItem-title h3 {
-        margin-bottom: 3px;
-        font-size: 100%;
-    }
-
-    .latestItem-title strong {
-        color: #aaa;
-
-    }
 
     .funding-links a {
         font-size: 16px;
@@ -836,20 +798,17 @@ h1:hover {
     }
 
 
+}
+
+@media (min-width: 1024px) {
+
+    .main {
+        max-width: 100%;
     }
 
-    @media (min-width: 1024px) {
-
-        .main {
-            max-width: 100%;
-        }
-
-        html {
-            font-size: 62.5%;
-        }
-
-        .latestContainer {
-            grid-template-columns: repeat(4, minmax(20rem, 1fr));
-        }
-
+    html {
+        font-size: 62.5%;
     }
+
+
+}
