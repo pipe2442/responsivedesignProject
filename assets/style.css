@@ -303,9 +303,9 @@ b {
 }
 
 .funding-round {
-  position: relative;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .funding-links a {
@@ -751,7 +751,13 @@ footer {
 
   .mobileMenu {
     display: flex;
+    height: 6.5vh;
     margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .mobileMenu img {
+    height: 6vh;
   }
 
   .fa-bars {
