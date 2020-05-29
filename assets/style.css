@@ -50,15 +50,13 @@ h1 {
 
 
 
-
-.mobileMenu {
+.mobileMenu, .logo3 {
   display: none;
 }
 
 .menu {
-  background: #131313;
-    
-  padding: 5px 20px;
+  background: #131313;   
+  padding: 5px 0;
 }
 
 .menu-item {
@@ -697,12 +695,35 @@ footer {
 }
 
 
-@media only screen and (max-width: 1023px) and (min-width: 769px)  {
+
+
+@media only screen and (max-width: 1023px) and (min-width: 768px)  {
+ 
+  .logo3 {
+    display: initial;
+  }
+
+  .logo3 img {
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+  }
+  .justFlex {
+    display: flex;
+    justify-content: space-between;
+    height: 9.vh;
+  }
+  .screenMenu {
+    width: 141vh;
+
+  }
 
   .weHeard {
-    height: 10vh;
+    height: 6vh;
     font-size: 0.8rem;
-  }  
+    margin: 0;
+    margin-top: -6px;
+  }
 
 }
 
@@ -718,6 +739,10 @@ footer {
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .logo3 {
+    display: none;
   }
 
   .screenMenu {
@@ -748,6 +773,7 @@ footer {
   .weHeard {
     height: 10vh;
     font-size: 0.8rem;
+    margin-top: -4px;
   }
 
   .news-section {
