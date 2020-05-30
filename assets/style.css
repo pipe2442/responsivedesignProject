@@ -223,9 +223,10 @@ i {
 
 .latestContainer {
   display: grid;
-  gap: 2.5rem;
-  grid-template-columns: repeat(4, 250px);
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));;
   justify-content: center;
+  padding: 75px;
 }
 
 .latest-deals {
@@ -704,7 +705,7 @@ footer {
   }
 
   .logo3 img {
-    height: 10vh;
+    height: 6.5vh;
     padding: 0;
     margin: 0;
   }
@@ -724,6 +725,7 @@ footer {
     margin: 0;
     margin-top: -6px;
   }
+
 
 }
 
@@ -757,7 +759,7 @@ footer {
   }
 
   .mobileMenu img {
-    height: 6vh;
+    height: 4vh;
   }
 
   .fa-bars {
@@ -779,7 +781,7 @@ footer {
   .weHeard {
     height: 10vh;
     font-size: 0.8rem;
-    margin-top: -4px;
+    margin-top: -26.5px;
   }
 
   .news-section {
