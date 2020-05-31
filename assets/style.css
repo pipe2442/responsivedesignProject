@@ -147,7 +147,7 @@ i {
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../assets/images/news1.jpg) center;
   background-size: cover;
-  padding: 2rem;
+  padding: 3rem;
   color: #fff;
   position: relative;
 }
@@ -219,6 +219,11 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.latestNews h1 {
+  align-self: flex-start;
+  margin: 3% 0 0 5%;
 }
 
 .latestContainer {
