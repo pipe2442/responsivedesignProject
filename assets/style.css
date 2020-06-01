@@ -199,13 +199,14 @@ i {
   font-size: 1.3em;
   color: #fff;
   margin-top: 70px;
-  padding: 20px;
+  padding-left: 4%;
 }
 
 .news__author {
   font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: -0.1rem;
+  padding-left: 4%;
 }
 
 
