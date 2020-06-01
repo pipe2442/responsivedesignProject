@@ -341,7 +341,7 @@ b {
   margin: 0;
 }
 
-.sponsor-details h4 {
+.sponsor-details  {
   margin: 0;
   font-size:2rem;
   color: #000;
@@ -418,11 +418,11 @@ b {
 
 .article-section {
   display: grid;
-  grid-template-columns: repeat(3, 350px);
-  grid-auto-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 2.5rem;
   justify-content: center;
   margin-top: 40px;
+  padding:4vh
 }
 
 .article-section h3{
@@ -549,6 +549,13 @@ b {
   color: #f42;
 }
 
+.laTitles h5{
+  font-size: 1.8rem;
+}
+
+.laTitles h4{
+  font-size: 2rem;
+}
 .popular li a {
   color: #000;
   opacity: 0.6;
@@ -565,13 +572,13 @@ b {
 .listTwo li {
   list-style: disc;
   color: #f42;
-  margin-bottom: 0.3rem;
+  margin-bottom: 1.3rem;
   border-bottom: 1px solid #eee;
 }
 
 .testing {
   color: #333;
-  font-size: 0.8rem;
+  font-size: 2rem;
 }
 
 .title__tag {
@@ -888,6 +895,18 @@ footer {
 
   .news__title1{
     font-size: 5rem;
+  }
+
+  .sectionPopular2 .news__title h3,
+  .sectionPopular3 .news__title h3,
+  .sectionPopular4 .news__title h3,
+  .sectionPopular5 .news__title h3,
+  .sectionPopular6 .news__title h3,
+  .sectionPopular7 .news__title h3,
+  .sectionPopular8 .news__title
+  {
+    font-size: 3.5rem;
+    color: #fff;
   }
   .latestItem-title h3 {
     font-size: 2.2rem;
