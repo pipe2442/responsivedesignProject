@@ -48,15 +48,13 @@ h2 {
   width: auto;
 }
 
-
-
-
-.mobileMenu, .logo3 {
+.mobileMenu,
+.logo3 {
   display: none;
 }
 
 .menu {
-  background: #131313;   
+  background: #131313;
   padding: 5px 0;
 }
 
@@ -97,11 +95,6 @@ h2 {
   padding: 10px 0 10px 15px;
 }
 
-.news-section {
-  grid-gap: 1.8rem;
-}
-
-
 .weHeard {
   background-color: #fd3;
   line-height: 24px;
@@ -115,6 +108,12 @@ h2 {
     sans-serif;
   font-size: 1.2rem;
   width: auto;
+}
+
+.fab,
+.fas {
+  font-size: 18px;
+  color: #fff;
 }
 
 .weHeard .fas {
@@ -148,7 +147,6 @@ i {
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../assets/images/news1.jpg) center;
   background-size: cover;
-  
   color: #fff;
 }
 
@@ -210,10 +208,6 @@ i {
   padding-left: 4%;
 }
 
-
-
-
-/* <----------------------------------  LATEST NEWS SECTION  ---------------------------------------------------------> */
 .latestNews {
   display: flex;
   flex-direction: column;
@@ -228,7 +222,7 @@ i {
 .latestContainer {
   display: grid;
   gap: 1.5rem;
-  grid-template-columns: repeat(4, minmax(100px, 1fr));;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
   justify-content: center;
   padding: 75px;
 }
@@ -288,17 +282,6 @@ h1:hover {
   font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 b {
   font-weight: 700;
 }
@@ -327,24 +310,10 @@ b {
   margin: 12px;
 }
 
-h1:hover {
-  color: black;
-}
-
-.latestItem-title h3:hover {
-  color: #f42;
-}
-
 .sponsor-details {
   display: grid;
   grid-template-columns: 3fr;
   width: 350px;
-}
-
-.sponsor,
-.sponsor2,
-.sponsor3 {
-
 }
 
 .sponsor-image img {
@@ -592,25 +561,6 @@ h1:hover {
   font-size: 0.8rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .title__tag {
   text-transform: uppercase;
   font-size: 1rem;
@@ -648,17 +598,6 @@ footer {
   padding: 5px;
   text-align: center;
   width: 40px;
-}
-
-.fab,
-.fas,
-.footer-links-menu li a {
-  color: #fff;
-}
-
-.fab,
-.fas {
-  font-size: 18px;
 }
 
 .footer-links-menu li {
@@ -701,15 +640,15 @@ footer {
   vertical-align: baseline;
 }
 
+.footer-links-menu li a {
+  color: #fff;
+}
+
 .footer-copyright span b {
   color: #f42;
 }
 
-
-
-
-@media only screen and (max-width: 1023px) and (min-width: 768px)  {
- 
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
   .logo3 {
     display: initial;
   }
@@ -722,8 +661,8 @@ footer {
   .justFlex {
     display: flex;
     justify-content: space-between;
-    height: 9.vh;
   }
+
   .screenMenu {
     width: 100%;
   }
@@ -738,17 +677,7 @@ footer {
     font-size: 0.8rem;
     margin-top: -5px;
   }
-
-
 }
-
-
-
-
-
-
-
-/* <----------------------------------          MOBILE VIEW         ---------------------------------------------------------> */
 
 @media only screen and (max-width: 768px) {
   body {
@@ -784,7 +713,6 @@ footer {
   .fa-bars {
     color: #f42;
   }
-
 
   .fa-search {
     height: 100%;
@@ -847,7 +775,6 @@ footer {
     flex-wrap: nowrap;
   }
 
-
   .latestContainer {
     padding-left: 3vh;
     min-width: auto;
@@ -857,7 +784,6 @@ footer {
     min-height: 72px;
     min-width: auto;
     display: flex;
-    
   }
 
   .latest-funding {
@@ -888,7 +814,7 @@ footer {
   .latestItem-title h3 {
     margin-top: 0;
     min-width: 200px;
-  } 
+  }
 
   .old-price,
   .new-price {
@@ -914,9 +840,6 @@ footer {
     margin: 10px;
   }
 
-  /* .latestItem-title{
-        position: relative;
-     } */
   .sponsor-image img {
     width: 60px;
     height: 60px;
