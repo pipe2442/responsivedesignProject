@@ -39,7 +39,8 @@ a {
   justify-content: space-between;
 }
 
-h1 {
+h1,
+h2 {
   color: #f42;
   font-family: Avalon, sans-serif;
   font-size: 28px;
@@ -302,7 +303,7 @@ b {
   font-weight: 700;
 }
 
-.latest-funding h1 {
+.latest-funding h2 {
   justify-content: center;
 }
 
