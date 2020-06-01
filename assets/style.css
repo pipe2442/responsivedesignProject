@@ -1,4 +1,3 @@
-/* GENERAL FORMATTING */
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +38,6 @@ h1:hover {
   color: #000;
 }
 
-/* helper classes */
 .flex {
   display: flex;
 }
@@ -52,8 +50,6 @@ h1:hover {
   justify-content: space-between;
 }
 
-
-/* Mobile Menu */
 .logo3,
 .mobileMenu {
   display: none;
@@ -114,7 +110,6 @@ h1:hover {
   color: #000;
 }
 
-/* TRENDING NEWS SECTION */
 .news-section {
   display: grid;
   grid-template-areas: "news__article1 news__article1 news__article2""news__article1 news__article1 news__article3""news__article1 news__article1 news__article3";
@@ -183,7 +178,6 @@ h1:hover {
   margin-top: 0;
 }
 
-/* MAIN ARTICLE SECTION */
 .latestNews {
   flex-direction: column;
   align-items: center;
@@ -348,8 +342,6 @@ h1:hover {
   color: #aaa;
 }
 
-/* ARTICLE 2 SECTION */
-
 .article-section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -504,8 +496,6 @@ h1:hover {
   position: relative;
 }
 
-/* DEALS SECTION */
-
 .more-deals {
   float: right;
   line-height: 18px;
@@ -531,7 +521,6 @@ h1:hover {
   line-height: 1.5;
 }
 
-/* FOOTER SECTION */
 footer {
   text-align: center;
 }
