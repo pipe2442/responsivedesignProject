@@ -153,6 +153,7 @@ i {
 .feature-main__top {
   display: flex;
   justify-content: space-between;
+  margin: 20px 0px 0px 12px;
 }
 
 .feature-article__date {
@@ -161,10 +162,10 @@ i {
 }
 
 .news__title1 {
-  font-size: 2.5rem;
-  line-height: 1.1;
-  letter-spacing: -0.1rem;
+  font-size: 7.5rem;
+  line-height: 1.1;  
   margin-top: 17rem;
+  flex-wrap:wrap;
 }
 
 .news__article2 {
@@ -194,18 +195,23 @@ i {
 
 .news__title {
   font-weight: 900;
-  line-height: 22px;
-  font-size: 1.3em;
+  /* line-height: 22px; */
+  font-size:4rem;
   color: #fff;
   margin-top: 70px;
   padding-left: 4%;
 }
 
 .news__author {
-  font-size: 1.1rem;
+  font-size: 2.1rem;
   font-weight: 400;
-  letter-spacing: -0.1rem;
   padding-left: 4%;
+}
+
+.article__author{
+  font-size: 1.2rem;
+  padding-left: 4%;
+  margin-top: 0;
 }
 
 .latestNews {
@@ -224,7 +230,7 @@ i {
   gap: 1.5rem;
   grid-template-columns: repeat(4, minmax(100px, 1fr));
   justify-content: center;
-  padding: 75px;
+  padding: 43px;
 }
 
 .latest-deals {
@@ -565,6 +571,10 @@ b {
   text-transform: uppercase;
   font-size: 1rem;
 }
+.title__bottom{
+  position: relative;
+ 
+}
 
 footer {
   text-align: center;
@@ -753,12 +763,13 @@ footer {
 
   .news__title,
   .news__title1 {
-    font-weight: 900;
-    line-height: 22px;
-    font-size: 1.3em;
-    color: #fff;
-    margin-top: 70px;
+     font-size: 2.3em;
+     margin-top: 70px;
     padding: 20px;
+  }
+
+  .news__author{
+    font-size: 1.2rem;
   }
 
   .latestContainer,
