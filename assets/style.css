@@ -297,18 +297,22 @@ b {
 }
 
 .funding-round {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 10vh 5vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap:2vh;
+  padding:3vh;
+  
 }
 
 .funding-links a {
   padding: 14px 0;
   color: #f42;
+  font-size: 2rem;
+  position: relative;
 }
 
 .funding-links div {
+  
   flex-direction: row;
   border-right: solid 1px #f42;
   float: left;
@@ -318,8 +322,8 @@ b {
 
 .sponsor-details {
   display: grid;
-  grid-template-columns: 3fr;
-  width: 350px;
+  grid-template-columns: repeat(4 minmax(min-content max-content));
+  /* width: 200px; */
 }
 
 .sponsor-image img {
@@ -333,20 +337,20 @@ b {
   background-color: #f42;
   color: #fff;
   padding: 10px 16px 10px 84px;
-  font-size: 18px;
+  font-size:3rem;
   margin: 0;
 }
 
 .sponsor-details h4 {
   margin: 0;
-  font-size: 18px;
+  font-size:2rem;
   color: #000;
   font-weight: 700;
   line-height: 1.25;
 }
 
 .sponsor-details h5 {
-  font-size: 12px;
+  font-size: 14px;
   margin: 0;
   font-family: Shentox, sans-serif;
   font-weight: 500;
@@ -390,7 +394,7 @@ b {
 
 .sponsor-cards span {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 1.5rem;
   color: #555;
   line-height: 1.5;
   font-weight: normal;
@@ -404,7 +408,7 @@ b {
 .border p {
   padding-left: 2em;
   color: #555;
-  font-size: 12px;
+  font-size: 1.6rem;
   font-weight: 400;
 }
 
@@ -421,6 +425,9 @@ b {
   margin-top: 40px;
 }
 
+.article-section h3{
+  color: #fff;
+}
 .sectionPopular {
   background:
     linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
@@ -515,8 +522,8 @@ b {
 }
 
 .mostPopular {
-  color: #fff;
-  font-size: 13px;
+  color:white;
+  font-size: 2vh;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -809,10 +816,13 @@ footer {
     margin: 60px 10px 0 10px;
   }
 
-  .funding-links div {
+  .funding-links div  {
     border: none;
     margin: 0;
+    float: left;
+    
   }
+
 
   .latestContainer img {
     width: 85px;
@@ -823,7 +833,7 @@ footer {
     color: black;
     text-decoration: none;
     font-family: "ARS Maquette", "Helvetica Neue", Arial, sans-serif;
-    font-size: 15px;
+    font-size: 1rem;
   }
 
   .latestItem-title {
@@ -886,4 +896,6 @@ footer {
   .article__author{
     font-size: 1.2rem;
   }
+
+  
 }
