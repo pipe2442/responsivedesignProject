@@ -209,7 +209,7 @@ i {
 }
 
 .article__author{
-  font-size: 1.2rem;
+  font-size: 1.9rem;
   padding-left: 4%;
   margin-top: 0;
 }
@@ -222,15 +222,15 @@ i {
 
 .latestNews h1 {
   align-self: flex-start;
-  margin: 3% 0 0 5%;
+  margin: 30px 0px 20px 55px;
 }
 
 .latestContainer {
   display: grid;
-  gap: 1.5rem;
+  gap: 2.5rem;
   grid-template-columns: repeat(4, minmax(100px, 1fr));
   justify-content: center;
-  padding: 43px;
+  padding: 55px;
 }
 
 .latest-deals {
@@ -259,7 +259,7 @@ i {
 }
 
 .latestItem-title h3 {
-  font-size: 15px;
+  font-size: 2.5rem;
   min-height: 8vh;
   margin-top: 20px;
 }
@@ -787,14 +787,22 @@ footer {
   }
 
   .latestContainer {
-    padding-left: 3vh;
+    padding-left: 2.5vh;
     min-width: auto;
   }
 
+  .article__author {
+    font-size: 1.2rem;
+    padding:0;
+  }
   .latestItem {
     min-height: 72px;
     min-width: auto;
     display: flex;
+  }
+  .latestItem-title h3 {
+    font-size: 1.5rem;
+    min-height: 8vh;
   }
 
   .latest-funding {
@@ -865,6 +873,17 @@ footer {
   }
 
   html {
-    font-size: 62.5%;
+    font-size: 70%;
+  }
+
+  .news__title1{
+    font-size: 5rem;
+  }
+  .latestItem-title h3 {
+    font-size: 2.2rem;
+    
+  }
+  .article__author{
+    font-size: 1.2rem;
   }
 }
