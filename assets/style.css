@@ -716,25 +716,28 @@ footer {
   }
 
   .logo3 img {
-    height: 6.5vh;
-    padding: 0;
-    margin: 0;
+    min-height: auto;
+    width: 85px;
   }
+
   .justFlex {
     display: flex;
     justify-content: space-between;
     height: 9.vh;
   }
   .screenMenu {
-    width: 141vh;
+    width: 100%;
+  }
 
+  .menuMobile {
+    display: flex;
+    flex-direction: column;
   }
 
   .weHeard {
-    height: 6vh;
+    height: 100%;
     font-size: 0.8rem;
-    margin: 0;
-    margin-top: -6px;
+    margin-top: -5px;
   }
 
 
@@ -762,22 +765,31 @@ footer {
     display: none;
   }
 
+  .menuMobile {
+    display: flex;
+    flex-direction: column;
+  }
+
   .mobileMenu {
     display: flex;
-    height: 6.5vh;
-    margin-bottom: 0;
+    height: 4.5vh;
     padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .mobileMenu img {
-    height: 4vh;
+    min-height: auto;
+    height: 100%;
   }
 
   .fa-bars {
     color: #f42;
   }
 
+
   .fa-search {
+    height: 100%;
+    min-height: auto;
     border-left: solid 1px;
     border-right: solid 1px;
     border-color: #b8b8b8;
@@ -790,9 +802,9 @@ footer {
   }
 
   .weHeard {
-    height: 10vh;
+    min-height: auto;
+    height: 11vh;
     font-size: 0.8rem;
-    margin-top: -26.5px;
   }
 
   .news-section {
