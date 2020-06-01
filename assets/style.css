@@ -848,11 +848,17 @@ footer {
     flex-wrap: nowrap;
   }
 
+
+  .latestContainer {
+    padding-left: 3vh;
+    min-width: auto;
+  }
+
   .latestItem {
     min-height: 72px;
-
-    /* padding-left: 88px; */
-    position: relative;
+    min-width: auto;
+    display: flex;
+    
   }
 
   .latest-funding {
@@ -877,10 +883,13 @@ footer {
   }
 
   .latestItem-title {
-    font-size: 14px !important;
-    font-weight: 700;
-    line-height: 18px !important;
+    margin-left: 2vh;
   }
+
+  .latestItem-title h3 {
+    margin-top: 0;
+    min-width: 200px;
+  } 
 
   .old-price,
   .new-price {
