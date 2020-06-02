@@ -563,6 +563,10 @@ b {
   margin: 0;
 }
 
+.popular h2 {
+  margin-bottom: 1rem;
+}
+
 .listTwo {
   padding: 1.5rem;
 }
