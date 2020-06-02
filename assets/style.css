@@ -101,7 +101,7 @@ h2 {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  padding-left: 11vh;
+  padding-left: 1rem;
   font-family:
     Arial,
     Helvetica,
@@ -739,6 +739,8 @@ footer {
     min-height: auto;
     height: 11vh;
     font-size: 0.8rem;
+    padding: 0;
+    justify-content: center;
   }
 
   .news-section {
