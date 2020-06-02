@@ -279,6 +279,10 @@ b {
   font-weight: 700;
 }
 
+.sponsor-section {
+  margin: 5rem 0 12rem 0;
+}
+
 .funding-round {
   display: flex;
   justify-content: space-between;
@@ -313,20 +317,21 @@ b {
 
 .sponsor {
   min-width: auto;
-  width: 27rem;
 }
 
-/*.sponsor-details {
-  display: grid;
-  grid-template-columns: 3fr;
-  width: 350px;
-}*/
+.latest-funding{
+  min-width: auto;
+}
 
 .sponsor-image img {
   width: 60px;
   height: 60px;
   margin: 10px;
   position: absolute;
+}
+
+.sponsor-details{
+  min-width: 28rem;
 }
 
 .sponsor-details h3 {
@@ -682,6 +687,33 @@ footer {
     height: 100%;
     font-size: 0.8rem;
     margin-top: -5px;
+  }
+
+  .sponsor-section{
+    justify-content: center;
+  }
+
+  .sponsor-details{
+    min-width: 20rem;
+  }
+  .latest-funding{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-width: 30rem;
+  }
+
+  .latest-funding h2{
+    font-size: 2vh;
+  }
+
+  .funding-links div{
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .funding-links a {
+    font-size: 1vh;
   }
 }
 
