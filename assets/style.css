@@ -537,7 +537,6 @@ b {
 
 .latest {
   background-color: rgb(236, 234, 234);
-  height: 15vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -551,6 +550,7 @@ b {
 .laTitles {
   grid-template-columns: repeat(1, 1fr);
   padding: 10px;
+ 
   color: #f42;
 }
 
