@@ -176,8 +176,8 @@ i {
     url(../assets/images/Sprint_image.jpg) center;
   background-size: cover;
   grid-area: news__article2;
-  padding: 1rem;
   font-size: 2rem;
+  padding-bottom: 2rem;
 }
 
 .news__article3 {
@@ -854,6 +854,8 @@ footer {
     min-height: 72px;
     min-width: auto;
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .funding-links div {
@@ -874,12 +876,17 @@ footer {
   }
 
   .latestItem-title {
-    margin-left: 2vh;
+    margin-left: 1rem;
   }
 
   .latestItem-title h3 {
-    margin-top: 0;
     min-width: 200px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .latestItem-title strong {
+    padding:0;
   }
 
   .old-price,
