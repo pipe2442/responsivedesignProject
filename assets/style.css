@@ -298,8 +298,10 @@ b {
 }
 
 .funding-links a {
-  padding: 14px 0;
   color: #f42;
+  font-size: 1.5rem;
+  font-family: Avalon, sans-serif;
+  margin: 0;
 }
 
 .funding-links div {
