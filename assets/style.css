@@ -776,7 +776,7 @@ footer {
 
   .mobileMenu img {
     min-height: auto;
-    height: 100%;
+    height: 125%;
   }
 
   .fa-bars {
@@ -799,9 +799,10 @@ footer {
 
   .weHeard {
     min-height: auto;
-    height: 11vh;
+    height: 10vh;
     font-size: 0.8rem;
-    padding: 0;
+    padding: 0.5 rem;
+    margin-top: 0.4rem;
     justify-content: center;
   }
 
@@ -924,7 +925,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-width: 34rem;
+    min-width: 20rem;
   }
 
   .latest-funding h2{
@@ -941,7 +942,7 @@ footer {
   }
 
   .sponsor-details{
-    width: auto;
+    min-width: 20rem;
   }
 }
 
