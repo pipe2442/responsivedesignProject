@@ -286,41 +286,51 @@ b {
 }
 
 .sponsor-section {
-  margin: 5rem 0 12rem 0;
+  margin: 2rem 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .funding-round {
   display: flex;
-  justify-content: space-between;
-  margin: 3rem 18rem;
-  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .latest-funding {
   display: flex;
   justify-content: space-between;
-  margin: 3rem 18rem;
-  min-width: auto;
+  margin: 2rem 0;
 }
 
 .funding-links a {
   color: #f42;
-  font-size: 1.5rem;
+  font-size: 1.2vw;
   font-family: Avalon, sans-serif;
-  margin: 0;
 }
 
-.funding-links div {
-  flex-direction: row;
-  border-right: solid 1px #f42;
-  float: left;
-  padding: 0 12px;
-  margin: 12px;
+.funding-links{
+  display: flex;
+  align-items: center;
 }
+
+.funding-links  div{
+  margin: 0;
+  padding: 0 ;
+}
+
 
 .sponsor {
-  min-width: auto;
-  margin-bottom: 2rem;
+  flex: 1;
+  min-width: 18rem;
+  margin: 0 1rem;
+}
+
+.sponsorLast {
+  flex: 1;
+  min-width: 18rem;
+  margin: 0 1rem;
 }
 
 .sponsor-image img {
@@ -331,27 +341,25 @@ b {
 }
 
 .sponsor-details {
-  min-width: 28rem;
+  min-width: 10rem;
 }
 
 .sponsor-details h3 {
   background-color: #f42;
   color: #fff;
   padding: 1rem 1rem 1rem 8rem;
-  font-size: 18px;
-  margin: 0;
+  font-size: 1.5vw;
 }
 
 .sponsor-details h4 {
   margin: 0;
-  font-size: 18px;
+  font-size: 1.2vw;
   color: #000;
   font-weight: 700;
   line-height: 1.25;
 }
 
 .sponsor-details h5 {
-  font-size: 12px;
   margin: 0;
   font-family: Shentox, sans-serif;
   font-weight: 500;
@@ -360,6 +368,7 @@ b {
   line-height: 1.5;
   color: #000;
   opacity: 0.5;
+  font-size: 0.7vw;
 }
 
 .sponsor-assets {
@@ -370,33 +379,22 @@ b {
 }
 
 .sponsor-cards {
-  padding: 16px;
+  padding: 1rem;
   background-color: rgb(224, 233, 230);
-}
-
-.sponsor-tag {
-  position: relative;
-  padding-left: 2em;
-  font-size: 13px;
-  margin-right: 1em;
-  display: block;
-  color: #555;
-  line-height: 22px;
-}
-
-.sponsor-tag span {
-  padding: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .sponsor-cards i {
   color: black;
-  margin: auto;
-  padding: 1vh;
+  padding: 1vw;
+  min-width: 1rem;
+  font-size: 1.2vw;
 }
 
 .sponsor-cards span {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 12px;
+  font-size: 0.8vw;
   color: #555;
   line-height: 1.5;
   font-weight: normal;
@@ -410,8 +408,8 @@ b {
 .border p {
   padding-left: 2em;
   color: #555;
-  font-size: 12px;
   font-weight: 400;
+  font-size: 0.85vw;
 }
 
 .faded-out {
@@ -693,28 +691,8 @@ footer {
     margin-top: -5px;
   }
 
-  .sponsor-details {
-    min-width: 20rem;
-  }
-
-  .latest-funding {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-width: 34rem;
-  }
-
-  .latest-funding h2 {
-    font-size: 4vh;
-  }
-
-  .funding-links div {
-    padding-left: 0;
-    margin-left: 0;
-  }
-
-  .funding-links a {
-    font-size: 2vh;
+  .sponsorLast {
+    display: none;
   }
 
   .news__title1 {
@@ -727,6 +705,10 @@ footer {
 
   .news__article3 {
     font-size: 1rem;
+  }
+  
+  html {
+    font-size: 60%;
   }
 }
 
