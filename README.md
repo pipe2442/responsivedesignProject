@@ -2,7 +2,7 @@
 
 The goal is to building a heatmap of the Smashing magazine website. 
 
-![screenshot](https://github.com/pipe2442/responsivedesignProject/blob/develop/assets/images/the%20next%20web%20screenshot.PNG?raw=true)
+![screenshot](https://github.com/pipe2442/responsivedesignProject/blob/develop/assets/images/tnwScreen.PNG?raw=true)
 
 
 ## Built With
@@ -11,7 +11,7 @@ The goal is to building a heatmap of the Smashing magazine website.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/pipe2442/responsivedesignProject/0b05c5ed1167630e2755e7b7a215b43c4fb61058/index.html)
+[Live Demo Link](https://rawcdn.githack.com/pipe2442/responsivedesignProject/5e2e1694076bc12a73a70cbd9f03f4cd2b727624/index.html)
 
 
 ## Getting Started
