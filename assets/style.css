@@ -437,9 +437,11 @@ h5 {
 
 .article-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(34rem, 35rem));
   grid-gap: 2rem;
-  max-width: 170vh;
+  align-content: center;
+  justify-content: center;
+  max-width: 120rem;
   margin: 10vh auto;
 }
 
@@ -950,7 +952,8 @@ footer {
     margin-right: 4vw;
   }
 
-  .sponsor {
+  .sponsor,
+  .sponsorLast {
     max-width: 44rem;
   }
 
