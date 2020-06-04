@@ -286,10 +286,16 @@ b {
 }
 
 .sponsor-section {
-  margin: 2rem 10rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 170vh;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .funding-round {
@@ -301,12 +307,16 @@ b {
 .latest-funding {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 0;
+  margin: 2rem 1rem;
+}
+
+.latest-funding h2 {
+  font-size: 2.5rem;
 }
 
 .funding-links a {
   color: #f42;
-  font-size: 1.2vw;
+  font-size: 1.5rem;
   font-family: Avalon, sans-serif;
 }
 
@@ -315,21 +325,22 @@ b {
   align-items: center;
 }
 
-.funding-links  div{
-  margin: 0;
-  padding: 0 ;
+.updatesDiv {
+  margin: 0 1rem;
+  padding: 0 1rem;
+  border-right:1px solid #f42;
+  border-left: 1px solid #f42;
 }
-
 
 .sponsor {
   flex: 1;
-  min-width: 18rem;
+  min-width: 8rem;
   margin: 0 1rem;
 }
 
 .sponsorLast {
   flex: 1;
-  min-width: 18rem;
+  min-width: 8rem;
   margin: 0 1rem;
 }
 
@@ -353,7 +364,7 @@ b {
 
 .sponsor-details h4 {
   margin: 0;
-  font-size: 1.2vw;
+  font-size: 1.3vw;
   color: #000;
   font-weight: 700;
   line-height: 1.25;
@@ -394,7 +405,7 @@ b {
 
 .sponsor-cards span {
   font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
-  font-size: 0.8vw;
+  font-size: 1vw;
   color: #555;
   line-height: 1.5;
   font-weight: normal;
@@ -409,7 +420,7 @@ b {
   padding-left: 2em;
   color: #555;
   font-weight: 400;
-  font-size: 0.85vw;
+  font-size: 1vw;
 }
 
 .faded-out {
@@ -691,6 +702,15 @@ footer {
     margin-top: -5px;
   }
 
+  .latest-funding {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .latest-funding h2 {
+    margin-bottom: 1rem;
+  }
+
   .sponsorLast {
     display: none;
   }
@@ -890,30 +910,65 @@ footer {
   }
 
   .sponsor-section {
+    display: flex;
+    flex-direction: column;
     justify-content: flex-start;
-    margin: -2rem 0 0 1.5rem;
   }
 
   .funding-round {
-    padding: 0 5rem 5rem 0;
-    margin: 2rem 5rem 5rem 0;
-    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .funding-round div {
+    margin-bottom: 0.5vh;
+    width: 100%;
   }
 
   .latest-funding {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    min-width: 20rem;
+    margin:0 0 5vh 2vh;
   }
 
   .latest-funding h2 {
-    font-size: 4vh;
+    font-size: 1.5rem;
   }
 
-  .sponsor-details {
-    min-width: 20rem;
+  .funding-links {
+    align-items: flex-start;
   }
+
+  .funding-links a {
+    font-size: 1rem;
+  }
+
+  .sponsor-details h3{
+    font-size: 3vw;
+  }
+
+  .sponsor-assets h4{
+    font-size: 3vw;
+  }
+  .sponsor-assets h5 {
+    font-size: 1.5vw;
+  }
+
+  .sponsor-cards i {
+    font-size: 3vw;
+  }
+
+  .sponsor-cards span {
+    font-size: 2.5vw;
+    padding-left: 1vw;
+  }
+
+  .border p{
+    font-size: 2vw;
+  }
+
 }
 
 @media (min-width: 1024px) {
