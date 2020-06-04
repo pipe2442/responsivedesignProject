@@ -333,6 +333,11 @@ b {
   margin: 0 1rem;
 }
 
+.sponsor-assets h4,
+h5 {
+  padding: 0.5rem 0.5rem 0.5rem 7.8rem;
+}
+
 .sponsorLast {
   flex: 1;
   min-width: 8rem;
@@ -378,14 +383,12 @@ b {
 }
 
 .sponsor-assets {
-  padding: 1rem 1rem 1rem 8rem;
   color: #000;
   background: rgba(255, 68, 34, 0.08);
   margin: 0;
 }
 
 .sponsor-cards {
-  padding: 1rem;
   background-color: rgb(224, 233, 230);
   display: flex;
   flex-direction: column;
@@ -393,7 +396,7 @@ b {
 
 .sponsor-cards i {
   color: black;
-  padding: 1vw;
+  padding-left: 1vw;
   min-width: 1rem;
   font-size: 1.2vw;
 }
@@ -408,7 +411,7 @@ b {
 
 .border {
   border-top: 1px solid rgba(255, 68, 34, 0.25);
-  padding-top: 10px;
+  padding: 10px 0;
 }
 
 .border p {
@@ -545,9 +548,23 @@ b {
 }
 
 .laTitles {
-  grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   padding: 10px;
   color: #f42;
+}
+
+.laTitles h5 {
+  padding: 0;
+  margin: 0;
+  align-self: flex-start;
+  font-size: 2vh;
+}
+
+.laTitles h4 {
+  font-size: 2vh;
 }
 
 .popular li a {
@@ -913,6 +930,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-right: 4vw;
   }
 
   .funding-round {
