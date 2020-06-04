@@ -135,6 +135,7 @@ i {
     "news__article1 news__article1 news__article3";
   grid-gap: 10px;
   overflow: hidden;
+  margin: 0.2rem 0.8rem;
 }
 
 .news__article1 {
@@ -831,7 +832,7 @@ footer {
       "news__article3";
     grid-gap: 0.8rem;
     overflow: hidden;
-    margin: 1rem 0.5rem;
+    margin: 0 0.5rem;
   }
 
   .news__article1,
