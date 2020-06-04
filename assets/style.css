@@ -429,12 +429,11 @@ b {
 
 .article-section {
   display: grid;
-  grid-template-columns: repeat(3, 350px);
-  grid-auto-rows: 1fr;
-  grid-gap: 2.5rem;
-  justify-content: center;
-  margin-top: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-gap: 1rem; 
+  margin: 10vh 25vh;
 }
+
 
 .sectionPopular {
   background:
