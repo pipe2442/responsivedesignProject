@@ -228,7 +228,7 @@ i {
   justify-content: flex-start;
   align-items: center;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 
 .latestNews2 {
@@ -318,7 +318,7 @@ b {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 5rem auto;
 }
 
 .funding-round {
@@ -476,10 +476,80 @@ h5 {
   margin: 1rem;
 }
 
-.sectionPopular2 {
+
+.sectionPopular1 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
     url(../assets/images/header-image-escobar-suing-apple-368x276.png) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  min-width: 34rem;
+}
+
+.sectionPopular2 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+    url(../assets/images/header-image-spotify-10k-library-limit-516x270.png) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  min-width: 34rem;
+}
+.sectionPopular3 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+    url(../assets/images/header-image-airpods-light-sensor-516x270.png) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  min-width: 34rem;
+}
+
+.sectionPopular4 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+    url(../assets/images/title-bar-browser-game-titlerun-368x276.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  min-width: 34rem;
+}
+
+.sectionPopular5 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+    url(../assets/images/Untitled-design-1-368x276.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  min-width: 34rem;
+}
+
+.sectionPopular6 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+    url(../assets/images/tesla-supercharger-model-s-x-ev-charging-car-elon-musk-sad-remove-price-cuts-480x270.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  min-width: 34rem;
+}
+
+.sectionPopular7 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+    url(../assets/images/Untitled-design-53-516x270.png) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 28rem;
+  min-width: 34rem;
+}
+
+.sectionPopular8 {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
+    url(../assets/images/Sprint_image.jpg) center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 28rem;
@@ -506,7 +576,14 @@ h5 {
   padding: 10px 0;
 }
 
-.sectionPopular2 {
+.sectionPopular1,
+.sectionPopular2,
+.sectionPopular3,
+.sectionPopular4,
+.sectionPopular5,
+.sectionPopular6,
+.sectionPopular7,
+.sectionPopular8 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -514,14 +591,15 @@ h5 {
   color: white;
 }
 
-.sectionPopular2 .news__title h5 {
+.news__title h5 {
  color: white;
  padding: 0;
  margin: 0;
  font-family: 'Roboto', sans-serif;
  font-size: 1.2rem;
 }
-.sectionPopular2 .news__title h3 {
+
+.news__title h3 {
   font-family: Avalon, sans-serif;
   font-size: 2rem;
 }
@@ -769,13 +847,13 @@ footer {
     grid-template-columns: repeat(2, minmax(10rem, 52rem));
     justify-content: center;
   }
-
+  .sectionPopular1,
   .sectionPopular2,
-  .sectionPopular4,
   .sectionPopular3,
+  .sectionPopular4,
   .sectionPopular5,
   .sectionPopular6,
-  .sectionPopular7
+  .sectionPopular7,
   .sectionPopular8{
     height: 35vw;
     width: 100%;
@@ -882,7 +960,7 @@ footer {
     padding: 0;
   }
 
-  .sectionPopular2 .news__title {
+  .news__title {
     padding: 1rem;
   }
 
@@ -1045,15 +1123,22 @@ footer {
   .sectionPopular3,
   .sectionPopular5,
   .sectionPopular6,
-  .sectionPopular7
-  .sectionPopular8{
+  .sectionPopular7,
+  .sectionPopular8 {
     height: 75vw;
     width: 100%;
     min-height: 10vw;
     min-width: 10vw;
   }
 
-  .sectionPopular2 {
+  .sectionPopular1,
+  .sectionPopular2,
+  .sectionPopular3,
+  .sectionPopular4,
+  .sectionPopular5,
+  .sectionPopular6,
+  .sectionPopular7,
+  .sectionPopular8 {
     display:flex;
     flex-direction: column;
     justify-content: flex-end;
