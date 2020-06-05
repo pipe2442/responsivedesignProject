@@ -243,9 +243,17 @@ i {
   font-size: 1.7rem;
   color: #f42;
   margin-right: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
-  sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
 }
 
 .latestNews h1 {
@@ -283,7 +291,7 @@ i {
 .latestItem-title h3 {
   font-size: 15px;
   margin: 1rem 0;
-  min-height:5vh ;
+  min-height: 5vh;
 }
 
 .latestItem-title strong {
@@ -342,7 +350,6 @@ b {
   color: #f42;
   font-size: 1.5rem;
   font-family: Avalon, sans-serif;
-  
 }
 
 .funding-links {
@@ -392,14 +399,14 @@ h5 {
   color: #fff;
   padding: 1rem 1rem 1rem 8rem;
   font-size: 2rem;
-  font-family: Avalon,sans-serif;
+  font-family: Avalon, sans-serif;
 }
 
 .sponsor-details h4 {
   margin: 0;
   font-size: 1.5rem;
   color: #000;
-  font-family: Avalon,sans-serif;
+  font-family: Avalon, sans-serif;
   font-weight: 900;
   line-height: 1.25;
 }
@@ -453,9 +460,17 @@ h5 {
   color: #555;
   font-weight: 400;
   font-size: 1.5rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
-  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
-  'Helvetica Neue', sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
 }
 
 .faded-out {
@@ -467,7 +482,6 @@ h5 {
   gap: 1.5rem;
   grid-template-columns: repeat(3, minmax(100px, 1fr));
   justify-content: flex-start;
-  margin: 0 1rem;
   max-width: 1200px;
   margin: 5rem auto;
 }
@@ -475,7 +489,6 @@ h5 {
 .popular {
   margin: 1rem;
 }
-
 
 .sectionPopular1 {
   background:
@@ -496,6 +509,7 @@ h5 {
   min-height: 28rem;
   min-width: 34rem;
 }
+
 .sectionPopular3 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
@@ -592,11 +606,11 @@ h5 {
 }
 
 .news__title h5 {
- color: white;
- padding: 0;
- margin: 0;
- font-family: 'Roboto', sans-serif;
- font-size: 1.2rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
 }
 
 .news__title h3 {
@@ -604,7 +618,7 @@ h5 {
   font-size: 2rem;
 }
 
-.authorTime span{
+.authorTime span {
   opacity: 0.5;
   font-family: 'Roboto', sans-serif;
   font-size: 1.3rem;
@@ -636,13 +650,27 @@ h5 {
   margin: 0;
   align-self: flex-start;
   font-size: 1.2rem;
-  font-family: Shentox,sans-serif;
-  
+  font-family: Shentox, sans-serif;
 }
 
 .laTitles h4 {
   font-size: 1.6rem;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.listTwo a {
+  font-size: 1.2rem;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Open Sans',
+    'Helvetica Neue',
+    sans-serif;
 }
 
 .popular li a {
@@ -665,14 +693,6 @@ h5 {
   color: #f42;
   margin-bottom: 0.3rem;
   border-bottom: 1px solid #eee;
-  
-}
-
-.listTwo a {
-  font-size: 1.2rem;
-  font-family: -apple-system, BlinkMacSystemFont, 
-  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
-  'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .testing {
@@ -847,6 +867,7 @@ footer {
     grid-template-columns: repeat(2, minmax(10rem, 52rem));
     justify-content: center;
   }
+
   .sectionPopular1,
   .sectionPopular2,
   .sectionPopular3,
@@ -854,7 +875,7 @@ footer {
   .sectionPopular5,
   .sectionPopular6,
   .sectionPopular7,
-  .sectionPopular8{
+  .sectionPopular8 {
     height: 35vw;
     width: 100%;
     min-height: 10vw;
@@ -863,7 +884,6 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
   }
-
 }
 
 @media only screen and (max-width: 767px) {
@@ -947,7 +967,7 @@ footer {
   .news__article2,
   .news__article3 {
     height: 30vh;
-    padding: 1rem ;
+    padding: 1rem;
     min-height: auto;
   }
 
@@ -960,7 +980,14 @@ footer {
     padding: 0;
   }
 
-  .news__title {
+  .sectionPopular1 .news__title,
+  .sectionPopular2 .news__title,
+  .sectionPopular3 .news__title,
+  .sectionPopular4 .news__title,
+  .sectionPopular5 .news__title,
+  .sectionPopular6 .news__title,
+  .sectionPopular7 .news__title,
+  .sectionPopular8 .news__title {
     padding: 1rem;
   }
 
@@ -982,11 +1009,9 @@ footer {
 
   .latestContainer {
     padding: 0;
-    margin: 0;
     display: flex;
     margin: 0 1rem;
-    
-  } 
+  }
 
   .latestItem {
     min-height: 72px;
@@ -1020,6 +1045,21 @@ footer {
   .latestItem-title {
     margin: 0 0 0 1rem;
     padding: 0;
+  }
+
+  .laTitles h4,
+  .laTitles h5 {
+    font-size: 100%;
+  }
+
+  .sponsor-assets h5 {
+    font-size: 0.7rem;
+  }
+
+  .article-section .news__title h5,
+  h3,
+  .authorTime {
+    font-size: 70%;
   }
 
   .latestItem-title h3 {
@@ -1094,10 +1134,6 @@ footer {
     font-size: 1rem;
   }
 
-  .sponsor-assets h5 {
-    font-size: 0.7rem;
-  }
-
   .sponsor-cards i {
     font-size: 0.9rem;
   }
@@ -1118,6 +1154,7 @@ footer {
     margin: 5vh 2vh;
   }
 
+  .sectionPopular1,
   .sectionPopular2,
   .sectionPopular4,
   .sectionPopular3,
@@ -1129,37 +1166,13 @@ footer {
     width: 100%;
     min-height: 10vw;
     min-width: 10vw;
-  }
-
-  .sectionPopular1,
-  .sectionPopular2,
-  .sectionPopular3,
-  .sectionPopular4,
-  .sectionPopular5,
-  .sectionPopular6,
-  .sectionPopular7,
-  .sectionPopular8 {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
 
-
-
-  .article-section .news__title h5, h3, .authorTime {
-    font-size: 70%;
-  }
-
-  .article-section .news__title h3 {
-    font-size: 1.3rem;
-  }
-  .laTitles{
+  .laTitles {
     padding: 0.5rem;
-  }
-
-  .laTitles h4, 
-  .laTitles h5 {
-    font-size: 100%;
   }
 
   .latest img {
@@ -1175,11 +1188,13 @@ footer {
     font-size: 1rem;
   }
 
+  .article-section .news__title h3 {
+    font-size: 1.3rem;
+  }
+
   .authorTime span {
     font-size: 1rem;
   }
-
-
 }
 
 @media (min-width: 1024px) {
