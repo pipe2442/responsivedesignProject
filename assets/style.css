@@ -366,7 +366,7 @@ b {
 
 .sponsor {
   flex: 1;
-  min-width: 23rem;
+  min-width: 15rem;
   max-width: 30rem;
   margin: 0 1rem;
 }
@@ -378,7 +378,7 @@ h5 {
 
 .sponsorLast {
   flex: 1;
-  min-width: 23rem;
+  min-width: 15rem;
   max-width: 30rem;
   margin: 0 1rem;
 }
