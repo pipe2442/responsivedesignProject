@@ -231,6 +231,23 @@ i {
   margin: 0 auto;
 }
 
+.latestNews2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.latestNews2 h3 {
+  font-size: 1.7rem;
+  color: #f42;
+  margin-right: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 
+  sans-serif;
+}
+
 .latestNews h1 {
   align-self: flex-start;
   margin: 3rem 1rem;
@@ -265,8 +282,8 @@ i {
 
 .latestItem-title h3 {
   font-size: 15px;
-  min-height: 8vh;
-  margin-top: 20px;
+  margin: 1rem 0;
+  min-height:5vh ;
 }
 
 .latestItem-title strong {
@@ -888,10 +905,17 @@ footer {
     flex-wrap: nowrap;
   }
 
-  .latestContainer {
-    padding-left: 3vh;
-    min-width: auto;
+  .latestNews {
+    align-items: flex-start;
   }
+
+  .latestContainer {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    margin: 0 1rem;
+    
+  } 
 
   .latestItem {
     min-height: 72px;
@@ -911,6 +935,8 @@ footer {
   .latestContainer img {
     width: 85px;
     height: 70px;
+    margin: 0;
+    padding: 0;
   }
 
   .latestContainer a {
@@ -921,13 +947,14 @@ footer {
   }
 
   .latestItem-title {
-    margin-left: 1rem;
+    margin: 0 0 0 1rem;
+    padding: 0;
   }
 
   .latestItem-title h3 {
     min-width: 200px;
-    margin: 0 0 -4px 0;
-    padding-bottom: 1px;
+    margin: 0 0 0.3rem 0;
+    min-height: 0;
   }
 
   .latestItem-title strong {
@@ -980,11 +1007,11 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 5vh 2vh;
+    margin: 5vh 3vh;
   }
 
   .latest-funding h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .sponsor-details h3 {
@@ -1062,6 +1089,10 @@ footer {
 
   .listTwo a {
     font-size: 80%;
+  }
+
+  .latestNews2 h3 {
+    font-size: 1rem;
   }
 
 
