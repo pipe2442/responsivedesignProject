@@ -206,10 +206,12 @@ i {
 .news__title {
   font-weight: 900;
   line-height: 22px;
-  font-size: 1.3em;
-  color: #fff;
+  font-size: 1.3rem;
   margin-top: 15rem;
-  padding-left: 4%;
+  padding-left: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .news__author {
@@ -437,75 +439,19 @@ h5 {
 
 .article-section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(34rem, 35rem));
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 37rem));
   grid-gap: 2rem;
   align-content: center;
   justify-content: center;
-  max-width: 120rem;
+  max-width: 151rem;
   margin: 10vh auto;
 }
 
-.sectionPopular {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-    url(../assets/images/image-gradient1.png) center;
-  background-repeat: no-repeat;
-  padding: 50px 0 0 100px;
-  margin: 0;
-}
 
 .sectionPopular2 {
   background:
     linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
     url(../assets/images/header-image-escobar-suing-apple-368x276.png) center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionPopular3 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-    url(../assets/images/Trump-Twitter-368x276.jpg) center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionPopular4 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-    url(../assets/images/Untitled-design-53-516x270.png) center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionPopular5 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-    url(../assets/images/image5-368x276.png) center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionPopular6 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-    url(../assets/images/justas-vinted-gq-1-368x276.png) border-box;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionPopular7 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-    url(../assets/images/Facebook-Discover-368x276.jpg) center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.sectionPopular8 {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.123), rgba(0, 0, 0, 50)),
-    url(../assets/images/HBO-Max-368x276.jpg) center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -530,21 +476,28 @@ h5 {
   padding: 10px 0;
 }
 
-.sectionPopular .news__title {
-  width: auto;
-  padding: 0;
-  position: relative;
-  top: 10vh;
-  right: 7vh;
+.sectionPopular2 .news__title {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: white;
 }
 
-.mostPopular {
-  color: #fff;
-  font-size: 13px;
+.sectionPopular2 .news__title h5 {
+ color: white;
+ padding: 0;
+ margin: 0;
+ font-family: 'Roboto', sans-serif;
+ font-size: 1.2rem;
+}
+.sectionPopular2 .news__title h3 {
+  font-family: Avalon, sans-serif;
+  font-size: 2rem;
+}
+
+.authorTime span{
+  opacity: 0.5;
   font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  line-height: 1.5;
 }
 
 .latest {
@@ -555,7 +508,7 @@ h5 {
 }
 
 .latest img {
-  width: 10vh;
+  width: 12vh;
   height: 10vh;
 }
 
@@ -572,16 +525,17 @@ h5 {
   padding: 0;
   margin: 0;
   align-self: flex-start;
-  font-size: 2vh;
+  font-size: 1.8vh;
+  font-family: Shentox,sans-serif;
+  
 }
 
 .laTitles h4 {
-  font-size: 2vh;
+  font-size: 2.5vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .popular li a {
-  color: #000;
-  opacity: 0.6;
   padding: 3px 0 6px 0;
   position: relative;
   display: block;
@@ -593,7 +547,7 @@ h5 {
 }
 
 .listTwo {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .listTwo li {
@@ -601,6 +555,14 @@ h5 {
   color: #f42;
   margin-bottom: 0.3rem;
   border-bottom: 1px solid #eee;
+  
+}
+
+.listTwo a {
+  font-size: 1.8vh;
+  font-family: -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+  'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .testing {
@@ -761,9 +723,10 @@ footer {
   html {
     font-size: 60%;
   }
+
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -938,13 +901,6 @@ footer {
     font-size: 2vh;
   }
 
-  .article-section {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 0.5rem;
-    margin: 10px;
-  }
-
   .sponsor-section {
     display: flex;
     flex-direction: column;
@@ -1003,6 +959,27 @@ footer {
   .border p {
     font-size: 2vw;
   }
+
+  .article-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5vh 2vh;
+  }
+
+  .sectionPopular2,
+  .sectionPopular4,
+  .sectionPopular3,
+  .sectionPopular5,
+  .sectionPopular6,
+  .sectionPopular7
+  .sectionPopular8{
+    height: 75vw;
+    width: 100%;
+    min-height: 10vw;
+    min-width: 10vw;
+  }
+
 }
 
 @media (min-width: 1024px) {
