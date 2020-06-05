@@ -225,20 +225,23 @@ i {
 .latestNews {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .latestNews h1 {
   align-self: flex-start;
-  margin: 3% 0 0 5%;
+  margin: 3rem 1rem;
 }
 
 .latestContainer {
   display: grid;
   gap: 1.5rem;
   grid-template-columns: repeat(4, minmax(100px, 1fr));
-  justify-content: center;
-  padding: 75px;
+  justify-content: flex-start;
+  margin: 0 1rem;
 }
 
 .latest-deals {
@@ -724,6 +727,14 @@ footer {
 
   html {
     font-size: 60%;
+  }
+
+  .latestContainer {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    justify-content: flex-start;
+    margin: 0 1rem;
   }
 
 }
