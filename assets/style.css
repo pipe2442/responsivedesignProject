@@ -371,14 +371,16 @@ h5 {
   background-color: #f42;
   color: #fff;
   padding: 1rem 1rem 1rem 8rem;
-  font-size: 1.5vw;
+  font-size: 2rem;
+  font-family: Avalon,sans-serif;
 }
 
 .sponsor-details h4 {
   margin: 0;
-  font-size: 1.3vw;
+  font-size: 1.5rem;
   color: #000;
-  font-weight: 700;
+  font-family: Avalon,sans-serif;
+  font-weight: 900;
   line-height: 1.25;
 }
 
@@ -391,7 +393,7 @@ h5 {
   line-height: 1.5;
   color: #000;
   opacity: 0.5;
-  font-size: 0.7vw;
+  font-size: 1rem;
 }
 
 .sponsor-assets {
