@@ -447,14 +447,17 @@ h5 {
 
 .article-section {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(1rem, 37rem));
-  grid-gap: 2rem;
-  align-content: center;
-  justify-content: center;
-  max-width: 151rem;
-  margin: 10vh auto;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  justify-content: flex-start;
+  margin: 0 1rem;
+  max-width: 1200px;
+  margin: 5rem auto;
 }
 
+.popular {
+  margin: 1rem;
+}
 
 .sectionPopular2 {
   background:
@@ -740,6 +743,39 @@ footer {
     margin: 0 1rem;
   }
 
+  .article-section {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(10rem, 52rem));
+    justify-content: center;
+  }
+
+  /*
+  
+    display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+  justify-content: flex-start;
+  margin: 0 1rem;
+  max-width: 1200px;
+  margin: 5rem auto;
+  */
+
+  .sectionPopular2,
+  .sectionPopular4,
+  .sectionPopular3,
+  .sectionPopular5,
+  .sectionPopular6,
+  .sectionPopular7
+  .sectionPopular8{
+    height: 35vw;
+    width: 100%;
+    min-height: 10vw;
+    min-width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -948,32 +984,32 @@ footer {
   }
 
   .latest-funding h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .sponsor-details h3 {
-    font-size: 3vw;
+    font-size: 1rem;
   }
 
   .sponsor-assets h4 {
-    font-size: 3vw;
+    font-size: 1rem;
   }
 
   .sponsor-assets h5 {
-    font-size: 1.5vw;
+    font-size: 0.7rem;
   }
 
   .sponsor-cards i {
-    font-size: 3vw;
+    font-size: 0.9rem;
   }
 
   .sponsor-cards span {
-    font-size: 2.5vw;
-    padding-left: 1vw;
+    font-size: 0.9rem;
+    padding-left: 1rem;
   }
 
   .border p {
-    font-size: 2vw;
+    font-size: 0.9rem;
   }
 
   .article-section {
