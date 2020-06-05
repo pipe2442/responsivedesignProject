@@ -1,17 +1,29 @@
-# Design Teardown
+# Building with Responsive Design
 
-The goal is to building a heatmap of the Smashing magazine website. 
+The goal is to make a clone of [thenextweb.com](https://thenextweb.com/)
 
-![screenshot](https://github.com/pipe2442/responsivedesignProject/blob/develop/assets/images/tnwScreen.PNG?raw=true)
+# Complete screen size view:
 
+![screenshot](https://github.com/pipe2442/responsivedesignProject/blob/develop/assets/images/Fullsizeview.PNG?raw=true)
+
+# Medium screen size view:
+
+![screenshot](https://github.com/pipe2442/responsivedesignProject/blob/develop/assets/images/mediumsizeview.PNG?raw=true)
+
+# Small screen size view:
+
+![screenshot](https://github.com/pipe2442/responsivedesignProject/blob/develop/assets/images/smallsizeview.PNG?raw=true)
 
 ## Built With
 
-- HTML and CSS
+- HTML 
+- CSS
+- CSS Grid
+- CSS Flex Box
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/pipe2442/responsivedesignProject/d96d1a4f7c0e95772d9a71b5fb587af569dca44c/index.html)
+[Live Demo Link](https://rawcdn.githack.com/pipe2442/responsivedesignProject/bdbc894ca44e0446f758b3b988c723d4fa7309e6/index.html)
 
 
 ## Getting Started
@@ -28,13 +40,13 @@ Type `git init` in your local terminal
 
 ### Install
 
-Clone the repository to your local machine `git clonehttps://github.com/mimipeshy/design_teardown.git ` 
+Clone the repository to your local machine 'git clone https://github.com/pipe2442/responsivedesignProject.git'
 
 ### Usage
 
-Cd into the repository `cd design_teardown`
+Cd into the repository 'cd responsivedesignProject'
 
-Open the `index.html` file and run it with any browser of your choice
+Open the 'index.html' file and run it with any browser of your choice
 
 
 ## Authors
@@ -43,13 +55,13 @@ Open the `index.html` file and run it with any browser of your choice
 
 - Github: [@githubhandle](https://github.com/mimipeshy)
 - LinkedIn: [@linkedinhandle](https://www.linkedin.com/in/peris-ndanu-405083193/)
--Twitter :[@twitterhandle](https://twitter.com/pygirl254)
+- Twitter :[@twitterhandle](https://twitter.com/pygirl254)
 
 👤 **Luis Felipe Angulo Torres**
 
 - Github: [@githubhandle](https://github.com/pipe2442)
 - LinkedIn: [@linkedinhandle](https://www.linkedin.com/in/luis-felipe-angulo-torres-95098b139/)
--Twitter: [@twitterhandle](https://twitter.com/pipe2442)
+- Twitter: [@twitterhandle](https://twitter.com/pipe2442)
 
 
 ## 🤝 Contributing
