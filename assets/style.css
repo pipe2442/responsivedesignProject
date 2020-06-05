@@ -131,6 +131,7 @@ i {
   display: grid;
   grid-template-areas:
     "news__article1 news__article1 news__article2"
+    "news__article1 news__article1 news__article2"
     "news__article1 news__article1 news__article3"
     "news__article1 news__article1 news__article3";
   grid-gap: 10px;
@@ -140,24 +141,23 @@ i {
 
 .news__article1 {
   grid-area: news__article1;
-  min-width: 50%;
   width: auto;
   background:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../assets/images/news1.jpg) center;
   background-size: cover;
   color: #fff;
-}
-
-.feature-main__top {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
+  min-height: 55vh;
+  min-width: 18vw;
+  padding: 2rem;
 }
 
 .feature-article__logo {
-  width: 58vh;
-  max-width: 50%;
-  padding: 2rem;
+  max-width: 30vh;
+  min-width: 25vw;
 }
 
 .feature-article__date {
@@ -169,7 +169,6 @@ i {
   font-size: 4.5rem;
   line-height: 1.1;
   letter-spacing: -0.1rem;
-  margin: 17rem 0 1rem 2rem;
 }
 
 .avalon {
@@ -182,7 +181,9 @@ i {
     url(../assets/images/Sprint_image.jpg) center;
   background-size: cover;
   grid-area: news__article2;
-  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   padding-bottom: 2rem;
 }
 
@@ -192,7 +193,10 @@ i {
     url(../assets/images/icon1.png) center;
   background-size: cover;
   grid-area: news__article3;
-  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 1rem;
 }
 
 .app-title1 {
@@ -206,19 +210,15 @@ i {
 .news__title {
   font-weight: 900;
   line-height: 22px;
-  font-size: 1.3rem;
-  margin-top: 15rem;
+  font-size: 2.5rem;
   padding-left: 2vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  color: white;
 }
 
 .news__author {
   font-size: 1.1rem;
   font-weight: 400;
   letter-spacing: -0.1rem;
-  padding-left: 4%;
   opacity: 0.7;
 }
 
@@ -482,6 +482,8 @@ h5 {
     url(../assets/images/header-image-escobar-suing-apple-368x276.png) center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 28rem;
+  min-width: 34rem;
 }
 
 .listOne {
@@ -504,10 +506,11 @@ h5 {
   padding: 10px 0;
 }
 
-.sectionPopular2 .news__title {
+.sectionPopular2 {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: flex-end;
+  align-content: flex-end;
   color: white;
 }
 
@@ -526,6 +529,7 @@ h5 {
 .authorTime span{
   opacity: 0.5;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
 }
 
 .latest {
@@ -632,7 +636,7 @@ footer {
   background: #333;
   border-radius: 50%;
   height: 40px;
-  padding: 5px;
+  padding: 3px;
   text-align: center;
   width: 40px;
 }
@@ -711,7 +715,7 @@ footer {
 
   .weHeard {
     height: 100%;
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-top: -5px;
   }
 
@@ -766,17 +770,6 @@ footer {
     justify-content: center;
   }
 
-  /*
-  
-    display: grid;
-  gap: 1.5rem;
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
-  justify-content: flex-start;
-  margin: 0 1rem;
-  max-width: 1200px;
-  margin: 5rem auto;
-  */
-
   .sectionPopular2,
   .sectionPopular4,
   .sectionPopular3,
@@ -803,11 +796,6 @@ footer {
 
   .logo3 {
     display: none;
-  }
-
-  .news__title1 {
-    font-size: 2.5rem;
-    margin: 0;
   }
 
   .news__article2 {
@@ -881,6 +869,8 @@ footer {
   .news__article2,
   .news__article3 {
     height: 30vh;
+    padding: 1rem ;
+    min-height: auto;
   }
 
   .news__title,
@@ -888,9 +878,12 @@ footer {
     font-weight: 900;
     line-height: 22px;
     font-size: 1.3em;
-    color: #fff;
-    margin-top: 70px;
-    padding: 20px;
+    color: white;
+    padding: 0;
+  }
+
+  .sectionPopular2 .news__title {
+    padding: 1rem;
   }
 
   .latestContainer,
@@ -959,6 +952,7 @@ footer {
 
   .latestItem-title strong {
     padding: 0;
+    font-size: 0.95rem;
   }
 
   .old-price,
@@ -1065,8 +1059,9 @@ footer {
     justify-content: flex-end;
   }
 
+
+
   .article-section .news__title h5, h3, .authorTime {
-    margin-bottom: 0.5rem;
     font-size: 70%;
   }
 
@@ -1092,6 +1087,10 @@ footer {
   }
 
   .latestNews2 h3 {
+    font-size: 1rem;
+  }
+
+  .authorTime span {
     font-size: 1rem;
   }
 
