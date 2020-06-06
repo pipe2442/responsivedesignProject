@@ -2,6 +2,10 @@
 
 The goal is to make a clone of [thenextweb.com](https://thenextweb.com/)
 
+# Live Demo
+
+[Live Demo Link](https://rawcdn.githack.com/pipe2442/responsivedesignProject/facdab3fb5b2dbe3589ca2b79ca4b2029e4f9919/index.html)
+
 # Complete screen size view:
 
 ![screenshot](https://github.com/pipe2442/responsivedesignProject/blob/develop/assets/images/Fullsizeview.PNG?raw=true)
@@ -20,11 +24,6 @@ The goal is to make a clone of [thenextweb.com](https://thenextweb.com/)
 - CSS
 - CSS Grid
 - CSS Flex Box
-
-## Live Demo
-
-[Live Demo Link](https://rawcdn.githack.com/pipe2442/responsivedesignProject/facdab3fb5b2dbe3589ca2b79ca4b2029e4f9919/index.html)
-
 
 ## Getting Started
 
